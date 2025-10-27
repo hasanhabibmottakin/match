@@ -1,6 +1,6 @@
 # ⚽ DRM Live Auto Match Data Updater
 
-This repository automatically scrapes the **latest live match data** from [BokulSports](https://bokulsports.com)  
+This repository automatically scrapes the **latest live match data** 
 and updates it every **8 minutes** — completely automated using **GitHub Actions + PHP** 🕒⚙️  
 
 ---
