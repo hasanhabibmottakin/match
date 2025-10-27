@@ -1,0 +1,92 @@
+name: Auto Update Match Data 
+
+on:
+  schedule:
+    - cron: "*/8 * * * *"   
+  workflow_dispatch:        
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, json, curl
+          coverage: none
+
+      - name: Fetch and Update Match Data
+        env:
+          INITIAL_URL: ${{ secrets.INITIAL_URL }}
+        run: |
+          mkdir -p cache
+
+          php -r '
+          $cache_file = "cache/match_data.json";
+          $cache_duration = 3600; // 1 hour
+          $initial_url = getenv("INITIAL_URL");
+
+          if (empty($initial_url)) {
+              echo " INITIAL_URL secret missing.\n";
+              exit(1);
+          }
+
+          echo "Fetching match data from: $initial_url\n";
+
+       
+          if (file_exists($cache_file) && (time() - filemtime($cache_file) < $cache_duration)) {
+              echo " Using cached data.\n";
+              copy($cache_file, "api.json");
+              exit;
+          }
+
+          $html = @file_get_contents($initial_url);
+          $all_matches = [];
+
+          if ($html !== FALSE && preg_match_all("/<div class=\"single-video\">\\s*<a href=\"([^\"]+)\" title=\"([^\"]+)\"/", $html, $matches, PREG_SET_ORDER)) {
+              foreach ($matches as $match) {
+                  $initial_link = $match[1];
+                  $title = $match[2];
+                  $watch_link = str_replace("/details/", "/watch/", $initial_link);
+                  $id_value = "";
+
+                  $sub_html = @file_get_contents($watch_link);
+                  if ($sub_html !== FALSE && preg_match("/<iframe src=\"[^\"]+\\?id=([^\"]+)\"/", $sub_html, $iframe)) {
+                      $id_value = $iframe[1];
+                  }
+
+                  if (!empty($id_value) && !empty($title)) {
+                      $all_matches[] = [
+                          "id" => $id_value,
+                          "match" => $title
+                      ];
+                  }
+              }
+          }
+
+          if (!empty($all_matches)) {
+              $json = json_encode($all_matches, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+              file_put_contents($cache_file, $json);
+              file_put_contents("api.json", $json);
+              echo "Match data updated successfully.\n";
+          } else {
+              echo " No matches found or failed to fetch data.\n";
+              file_put_contents("api.json", "{}");
+          }
+          '
+
+      - name: Commit and Push Updated Data
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+          git add api.json
+          git commit -m "Auto updated match data [skip ci]" || echo "No changes to commit"
+          git push
