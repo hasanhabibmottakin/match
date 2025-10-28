@@ -12,6 +12,18 @@
         "match": "Germany - DFB Pokal Live 1"
     },
     {
+        "id": "6900febe663a1",
+        "match": "Germany - DFB Pokal Live 2"
+    },
+    {
+        "id": "https://live.inplyr.com/room/519740.m3u8",
+        "match": "Germany - DFB Pokal Live 3"
+    },
+    {
+        "id": "https://live.inplyr.com/room/356042.m3u8",
+        "match": "Germany - DFB Pokal Live 4"
+    },
+    {
         "id": "682c0c1aa105d",
         "match": "Saudi Arabia - King Cup live 1"
     },
@@ -24,7 +36,7 @@
         "match": "Italy - Serie A Live 1"
     },
     {
-        "id": "68fe4faa5335b",
+        "id": "68b1c93b68f0b",
         "match": "Italy - Serie A Live 2"
     }
 ]
