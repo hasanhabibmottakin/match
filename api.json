@@ -4,7 +4,7 @@
         "match": "Italy - Serie A Live 4"
     },
     {
-        "id": "68d82324947c5",
+        "id": "68b1c93b68f0b",
         "match": "Italy - Serie A Live 1"
     },
     {
@@ -28,11 +28,11 @@
         "match": "France - Ligue 1 Live 4"
     },
     {
-        "id": "68bdd1c77daab",
+        "id": "https://live.inplyr.com/room/515900.m3u8",
         "match": "Germany - DFB Pokal Live 1"
     },
     {
-        "id": "6900febe663a1",
+        "id": "https://live.inplyr.com/room/356042.m3u8",
         "match": "Germany - DFB Pokal Live 2"
     }
 ]
