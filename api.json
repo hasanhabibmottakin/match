@@ -1,13 +1,5 @@
 [
     {
-        "id": "682b432ec5859",
-        "match": "Bangladesh vs West Indies live 1"
-    },
-    {
-        "id": "682b432ec5859",
-        "match": "Bangladesh vs West Indies live 2"
-    },
-    {
         "id": "68d82324947c5",
         "match": "Italy - Serie A Live 4"
     },
@@ -20,19 +12,27 @@
         "match": "Italy - Serie A Live 2"
     },
     {
+        "id": "68fceed58c477",
+        "match": "France - Ligue 1 Live 1"
+    },
+    {
+        "id": "682ae2aaf08d1",
+        "match": "France - Ligue 1 Live 2"
+    },
+    {
+        "id": "https://live.inplyr.com/room/512649.m3u8",
+        "match": "France - Ligue 1 Live 3"
+    },
+    {
+        "id": "68e2933a13923",
+        "match": "France - Ligue 1 Live 4"
+    },
+    {
         "id": "68bdd1c77daab",
         "match": "Germany - DFB Pokal Live 1"
     },
     {
         "id": "6900febe663a1",
         "match": "Germany - DFB Pokal Live 2"
-    },
-    {
-        "id": "68ce9a2d2f034",
-        "match": "Australia vs India live 1"
-    },
-    {
-        "id": "68ce988148dfe",
-        "match": "Australia vs India live 2"
     }
 ]
