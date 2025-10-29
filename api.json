@@ -8,28 +8,16 @@
         "match": "Bangladesh vs West Indies live 2"
     },
     {
-        "id": "68ce9a2d2f034",
-        "match": "Australia vs India live 1"
+        "id": "68d82324947c5",
+        "match": "Italy - Serie A Live 4"
     },
     {
-        "id": "68ce988148dfe",
-        "match": "Australia vs India live 2"
+        "id": "68d82324947c5",
+        "match": "Italy - Serie A Live 1"
     },
     {
-        "id": "68ce988148dfe",
-        "match": "New Zealand vs England live 1"
-    },
-    {
-        "id": "68ce988148dfe",
-        "match": "New Zealand vs England live 2"
-    },
-    {
-        "id": "6900db70f183a",
-        "match": "Pakistan vs South Africa live 1"
-    },
-    {
-        "id": "690033aaeeb65",
-        "match": "Pakistan vs South Africa live 2"
+        "id": "68b1c93b68f0b",
+        "match": "Italy - Serie A Live 2"
     },
     {
         "id": "68bdd1c77daab",
@@ -40,27 +28,11 @@
         "match": "Germany - DFB Pokal Live 2"
     },
     {
-        "id": "https://live.inplyr.com/room/519740.m3u8",
-        "match": "Germany - DFB Pokal Live 3"
+        "id": "68ce9a2d2f034",
+        "match": "Australia vs India live 1"
     },
     {
-        "id": "https://live.inplyr.com/room/356042.m3u8",
-        "match": "Germany - DFB Pokal Live 4"
-    },
-    {
-        "id": "https://live.inplyr.com/room/304148.m3u8",
-        "match": "Saudi Arabia - King Cup live 1"
-    },
-    {
-        "id": "https://live.inplyr.com/room/304148.m3u8",
-        "match": "Saudi Arabia - King Cup live 2"
-    },
-    {
-        "id": "68d82324947c5",
-        "match": "Italy - Serie A Live 1"
-    },
-    {
-        "id": "68b1c93b68f0b",
-        "match": "Italy - Serie A Live 2"
+        "id": "68ce988148dfe",
+        "match": "Australia vs India live 2"
     }
 ]
