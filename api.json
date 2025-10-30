@@ -1,66 +1,10 @@
 [
     {
         "id": "68d82324947c5",
-        "match": "Italy - Serie A Live 4"
-    },
-    {
-        "id": "68b1c93b68f0b",
-        "match": "Italy - Serie A Live 1"
-    },
-    {
-        "id": "https://live.inplyr.com/room/144861.m3u8",
-        "match": "Italy - Serie A Live 2"
-    },
-    {
-        "id": "https://live.inplyr.com/room/344370.m3u8",
-        "match": "France - Ligue 1 Live 1"
-    },
-    {
-        "id": "68fceed58c477",
-        "match": "France - Ligue 1 Live 2"
-    },
-    {
-        "id": "https://live.inplyr.com/room/512649.m3u8",
-        "match": "France - Ligue 1 Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/548860.m3u8",
-        "match": "France - Ligue 1 Live 4"
-    },
-    {
-        "id": "https://live.inplyr.com/room/515900.m3u8",
-        "match": "Germany - DFB Pokal Live 1"
-    },
-    {
-        "id": "https://live.inplyr.com/room/356042.m3u8",
-        "match": "Germany - DFB Pokal Live 2"
-    },
-    {
-        "id": "690263fb4b684",
-        "match": "England - League Cup Live 3"
-    },
-    {
-        "id": "690263fb4b684",
-        "match": "England - League Cup Live 4"
-    },
-    {
-        "id": "690264c4e8688",
-        "match": "England - League Cup Live"
-    },
-    {
-        "id": "6902653d2e206",
-        "match": "England - League Cup Live"
-    },
-    {
-        "id": "690265a963bb5",
-        "match": "England - League Cup Live 1"
-    },
-    {
-        "id": "68b1c93b68f0b",
         "match": "Italy - Serie A Live"
     },
     {
         "id": "68d82324947c5",
-        "match": "Italy - Serie A Live"
+        "match": "Italy - Serie A Live 1"
     }
 ]
