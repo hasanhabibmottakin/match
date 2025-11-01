@@ -16,12 +16,28 @@
         "match": "Tottenham Hotspur vs Chelsea"
     },
     {
+        "id": "682c0c1aa105d",
+        "match": "Saudi Arabia - Pro League Live 1"
+    },
+    {
+        "id": "682c0c1aa105d",
+        "match": "Saudi Arabia - Pro League Live 2"
+    },
+    {
         "id": "68d82324947c5",
         "match": "Italy - Serie A Live 3"
     },
     {
         "id": "68d82324947c5",
         "match": "Italy - Serie A Live 4"
+    },
+    {
+        "id": "https://live.inplyr.com/room/250874.m3u8",
+        "match": "Bayern M\u00fcnchen vs Bayer Leverkusen"
+    },
+    {
+        "id": "https://live.inplyr.com/room/250874.m3u8",
+        "match": "Bayern M\u00fcnchen vs Bayer Leverkusen"
     },
     {
         "id": "https://live.inplyr.com/room/344370.m3u8",
@@ -42,29 +58,5 @@
     {
         "id": "68d82324947c5",
         "match": "Italy - Serie A Live 2"
-    },
-    {
-        "id": "https://live.inplyr.com/room/285067.m3u8",
-        "match": "Germany - Bundesliga Live 1"
-    },
-    {
-        "id": "69061bd226dbf",
-        "match": "Germany - Bundesliga Live 2"
-    },
-    {
-        "id": "68d82324947c5",
-        "match": "Germany - Bundesliga Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/548860.m3u8",
-        "match": "Germany - Bundesliga Live 4"
-    },
-    {
-        "id": "https://live.inplyr.com/default/l5ergph4pk8wr8k.m3u8",
-        "match": "Saudi Arabia - Pro League Live 1"
-    },
-    {
-        "id": "68fd1157da140",
-        "match": "Saudi Arabia - Pro League Live 2"
     }
 ]
