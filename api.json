@@ -24,8 +24,12 @@
         "match": "England - Premier League Live 6"
     },
     {
-        "id": "682ad8e91af89",
-        "match": "Spain - La Liga Live 1"
+        "id": "https://live.inplyr.com/room/344370.m3u8",
+        "match": "France - Ligue 1 Live 1"
+    },
+    {
+        "id": "68fceed58c477",
+        "match": "France - Ligue 1 Live 2"
     },
     {
         "id": "682c0c1aa105d",
@@ -34,26 +38,6 @@
     {
         "id": "682b432ec5859",
         "match": "Spain - La Liga Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/548860.m3u8",
-        "match": "France - Ligue 1 Live 4"
-    },
-    {
-        "id": "682ad8e91af89",
-        "match": "Spain - La Liga Live 1"
-    },
-    {
-        "id": "682c0c1aa105d",
-        "match": "Spain - La Liga Live 2"
-    },
-    {
-        "id": "682b432ec5859",
-        "match": "Spain - La Liga Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/548860.m3u8",
-        "match": "France - Ligue 1 Live 4"
     },
     {
         "id": "68d82324947c5",
