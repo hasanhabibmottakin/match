@@ -16,7 +16,7 @@
         "match": "England - Premier League Live 2"
     },
     {
-        "id": "68fe29c558667",
+        "id": "69061a2774033",
         "match": "England - Premier League Live 3"
     },
     {
@@ -24,7 +24,7 @@
         "match": "England - Premier League Live 5"
     },
     {
-        "id": "68fe4d7d576a6",
+        "id": "69061a2774033",
         "match": "England - Premier League Live 6"
     },
     {
@@ -68,11 +68,11 @@
         "match": "Italy - Serie A Live 2"
     },
     {
-        "id": "68fcd6cdc40e8",
+        "id": "https://live.inplyr.com/room/285067.m3u8",
         "match": "Germany - Bundesliga Live 1"
     },
     {
-        "id": "https://live.inplyr.com/room/536185.m3u8",
+        "id": "69061bd226dbf",
         "match": "Germany - Bundesliga Live 2"
     },
     {
@@ -80,7 +80,7 @@
         "match": "Germany - Bundesliga Live 3"
     },
     {
-        "id": "68d82324947c5",
+        "id": "https://live.inplyr.com/room/548860.m3u8",
         "match": "Germany - Bundesliga Live 4"
     }
 ]
