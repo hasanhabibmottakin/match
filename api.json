@@ -1,13 +1,5 @@
 [
     {
-        "id": "682b432ec5859",
-        "match": "Spain - La Liga Live 3"
-    },
-    {
-        "id": "682ad8e91af89",
-        "match": "Spain - La Liga Live 4"
-    },
-    {
         "id": "682ad8e91af89",
         "match": "Spain - La Liga Live 1"
     },
@@ -16,16 +8,12 @@
         "match": "Spain - La Liga Live 2"
     },
     {
-        "id": "69061a2774033",
-        "match": "England - Premier League Live 3"
-    },
-    {
         "id": "682ac43d04391",
-        "match": "England - Premier League Live 4"
+        "match": "England - Premier League Live 1"
     },
     {
-        "id": "68d82324947c5",
-        "match": "Italy - Serie A Live 4"
+        "id": "682ae2aaf08d1",
+        "match": "England - Premier League Live 2"
     },
     {
         "id": "68ce988148dfe",
@@ -34,13 +22,5 @@
     {
         "id": "68d82324947c5",
         "match": "Italy - Serie A Live 2"
-    },
-    {
-        "id": "6907a769c2a83",
-        "match": "France - Ligue 1 Live 1"
-    },
-    {
-        "id": "6907a769c2a83",
-        "match": "France - Ligue 1 Live 2"
     }
 ]
