@@ -1,13 +1,5 @@
 [
     {
-        "id": "68ce9a2d2f034",
-        "match": "UEFA Champions League"
-    },
-    {
-        "id": "68ce988148dfe",
-        "match": "UEFA Champions League"
-    },
-    {
         "id": "68bdd1c77daab",
         "match": "Liverpool vs Real Madrid"
     },
@@ -34,6 +26,10 @@
     {
         "id": "690a24794f8a6",
         "match": "UEFA Champions League"
+    },
+    {
+        "id": "690a580983e3f",
+        "match": "England - Championship"
     },
     {
         "id": "682b432ec5859",
