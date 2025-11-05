@@ -1,9 +1,9 @@
-name: Auto Update Stream API
+name: Auto Update Stream API (Node.js)
 
 on:
   schedule:
     - cron: "*/20 * * * *"   
-  workflow_dispatch:         
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,115 +16,112 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.11"
+          node-version: "20"
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          npm install axios jsdom
 
-      - name: Run scraper (inline)
+      - name: Run scraper
         env:
           BASE_LISTING_URL: ${{ secrets.BASE_LISTING_URL }}
           BASE_STREAM_URL: ${{ secrets.BASE_STREAM_URL }}
         run: |
-          python - <<'PY'
-#!/usr/bin/env python3
-import os, re, json, base64, requests
-from bs4 import BeautifulSoup
+          node <<'JS'
+import axios from "axios";
+import { JSDOM } from "jsdom";
+import fs from "fs";
 
-def xor_decrypt(data_base64, key):
-    try:
-        decoded_bytes = base64.b64decode(data_base64)
-        out = []
-        klen = len(key)
-        for i, b in enumerate(decoded_bytes):
-            out.append(chr(b ^ ord(key[i % klen])))
-        return "".join(out)
-    except Exception as e:
-        print(f"[ERROR] Decrypt: {e}")
-        return None
+async function xorDecrypt(dataBase64, key) {
+  const decoded = Buffer.from(dataBase64, "base64");
+  const keyChars = key.split("").map((c) => c.charCodeAt(0));
+  const output = decoded.map((b, i) => b ^ keyChars[i % keyChars.length]);
+  return Buffer.from(output).toString("utf8");
+}
 
-def fetch_and_decrypt_stream_info(url, content_id):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-    print(f"-> Processing ID: {content_id}")
-    try:
-        r = requests.get(url, headers=headers, timeout=12)
-        r.raise_for_status()
-        html = r.text
-    except Exception as e:
-        print(f"[ERROR] Fetch {url}: {e}")
-        return None
+async function fetchAndDecryptStreamInfo(url, contentId) {
+  console.log(`→ Processing ID: ${contentId}`);
+  try {
+    const { data: html } = await axios.get(url, {
+      headers: { "User-Agent": "Mozilla/5.0" },
+      timeout: 12000,
+    });
 
-    key_m = re.search(r'const decryptionKey = "(.*?)";', html)
-    enc_m = re.search(r'let encrypted = "(.*?)";', html)
-    if not key_m or not enc_m:
-        print("[WARN] missing encrypted/key")
-        return None
+    const keyMatch = html.match(/const decryptionKey = "(.*?)";/);
+    const encMatch = html.match(/let encrypted = "(.*?)";/);
 
-    dec = xor_decrypt(enc_m.group(1), key_m.group(1))
-    if not dec:
-        return None
+    if (!keyMatch || !encMatch) {
+      console.log("  [WARN] Missing key/encrypted data");
+      return null;
+    }
 
-    mpd = re.search(r"const mpdUrl = '(.*?)';", dec)
-    kid = re.search(r"const kid = '(.*?)';", dec)
-    keyv = re.search(r"const key = '(.*?)';", dec)
-    if not mpd or not kid or not keyv:
-        print("[WARN] missing mpd/kid/key in decrypted JS")
-        return None
+    const decrypted = await xorDecrypt(encMatch[1], keyMatch[1]);
+    const mpd = decrypted.match(/const mpdUrl = '(.*?)';/);
+    const kid = decrypted.match(/const kid = '(.*?)';/);
+    const keyv = decrypted.match(/const key = '(.*?)';/);
 
-    return {"mpdUrl": mpd.group(1), "kid": kid.group(1), "key": keyv.group(1)}
+    if (!mpd || !kid || !keyv) {
+      console.log("  [WARN] Missing mpd/kid/key info");
+      return null;
+    }
 
-def get_channel_ids(base_listing_url):
-    if not base_listing_url:
-        print("[ERROR] BASE_LISTING_URL not set")
-        return []
-    print(f"[INFO] Fetching listing: {base_listing_url}")
-    try:
-        r = requests.get(base_listing_url, timeout=12, headers={'User-Agent': 'Mozilla/5.0'})
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, 'html.parser')
-    except Exception as e:
-        print(f"[FATAL] Listing fetch failed: {e}")
-        return []
-    ids = set()
-    for link in soup.select('div.channel a[href*="play.php?id="]'):
-        href = link.get('href', '')
-        m = re.search(r'id=([a-fA-F0-9]+)', href)
-        if m:
-            ids.add(m.group(1))
-    print(f"[INFO] Found {len(ids)} IDs")
-    return list(ids)
+    return { mpdUrl: mpd[1], kid: kid[1], key: keyv[1] };
+  } catch (err) {
+    console.log("  [ERROR]", err.message);
+    return null;
+  }
+}
 
-def save_json(data):
-    with open("api_data.json", "w") as f:
-        json.dump(data, f, indent=4)
-    print("[INFO] Saved api_data.json")
+async function getChannelIds(listingUrl) {
+  console.log("[INFO] Fetching listing:", listingUrl);
+  try {
+    const { data } = await axios.get(listingUrl, {
+      headers: { "User-Agent": "Mozilla/5.0" },
+      timeout: 15000,
+    });
+    const dom = new JSDOM(data);
+    const links = [...dom.window.document.querySelectorAll('div.channel a[href*="play.php?id="]')];
+    const ids = new Set();
+    links.forEach((a) => {
+      const m = a.href.match(/id=([a-fA-F0-9]+)/);
+      if (m) ids.add(m[1]);
+    });
+    console.log(`[INFO] Found ${ids.size} IDs`);
+    return [...ids];
+  } catch (e) {
+    console.log("[FATAL] Listing fetch failed:", e.message);
+    return [];
+  }
+}
 
-def main():
-    base_listing = os.getenv("BASE_LISTING_URL")
-    base_stream = os.getenv("BASE_STREAM_URL")
-    ids = get_channel_ids(base_listing)
-    if not ids:
-        print("[WARN] No IDs; exiting")
-        return
-    try:
-        with open("api_data.json", "r") as f:
-            data = json.load(f)
-    except Exception:
-        data = {}
-    for cid in ids:
-        info = fetch_and_decrypt_stream_info(f"{base_stream}{cid}", cid)
-        if info:
-            data[cid] = info
-    save_json(data)
+async function main() {
+  const baseListing = process.env.BASE_LISTING_URL;
+  const baseStream = process.env.BASE_STREAM_URL;
 
-if __name__ == "__main__":
-    main()
-PY
+  const ids = await getChannelIds(baseListing);
+  if (ids.length === 0) return console.log("[WARN] No IDs found.");
+
+  let data = {};
+  try {
+    data = JSON.parse(fs.readFileSync("api_data.json", "utf8"));
+  } catch {
+    data = {};
+  }
+
+  for (const id of ids) {
+    const info = await fetchAndDecryptStreamInfo(`${baseStream}${id}`, id);
+    if (info) data[id] = info;
+  }
+
+  fs.writeFileSync("api_data.json", JSON.stringify(data, null, 4));
+  console.log("[INFO] Saved api_data.json");
+}
+
+await main();
+JS
 
       - name: Commit and push if changed
         run: |
