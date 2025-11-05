@@ -1,8 +1,8 @@
-name: Auto Update Stream API (PHP)
+name: Auto Update Stream API 
 
 on:
   schedule:
-    - cron: "*/20 * * * *"   
+    - cron: "*/20 * * * *"    
   workflow_dispatch:
 
 permissions:
@@ -27,109 +27,109 @@ jobs:
           BASE_STREAM_URL: ${{ secrets.BASE_STREAM_URL }}
         run: |
           php <<'PHP'
-<?php
-function xor_decrypt($data_base64, $key) {
-    $decoded = base64_decode($data_base64);
-    $output = '';
-    $keylen = strlen($key);
-    for ($i = 0; $i < strlen($decoded); $i++) {
-        $output .= chr(ord($decoded[$i]) ^ ord($key[$i % $keylen]));
-    }
-    return $output;
-}
-
-function fetch_and_decrypt_stream_info($url, $content_id) {
-    echo "→ Processing ID: $content_id\n";
-    $opts = [
-        "http" => [
-            "header" => "User-Agent: Mozilla/5.0\r\n",
-            "timeout" => 12
-        ]
-    ];
-    $context = stream_context_create($opts);
-    $html = @file_get_contents($url, false, $context);
-    if (!$html) {
-        echo "  [ERROR] Failed to fetch $url\n";
-        return null;
-    }
-
-    preg_match('/const decryptionKey = "(.*?)";/', $html, $keyMatch);
-    preg_match('/let encrypted = "(.*?)";/', $html, $encMatch);
-    if (empty($keyMatch[1]) || empty($encMatch[1])) {
-        echo "  [WARN] Missing key/encrypted data\n";
-        return null;
-    }
-
-    $decrypted = xor_decrypt($encMatch[1], $keyMatch[1]);
-    preg_match("/const mpdUrl = '(.*?)';/", $decrypted, $mpd);
-    preg_match("/const kid = '(.*?)';/", $decrypted, $kid);
-    preg_match("/const key = '(.*?)';/", $decrypted, $keyv);
-
-    if (empty($mpd[1]) || empty($kid[1]) || empty($keyv[1])) {
-        echo "  [WARN] Missing mpd/kid/key info\n";
-        return null;
-    }
-
-    return [
-        "mpdUrl" => $mpd[1],
-        "kid" => $kid[1],
-        "key" => $keyv[1]
-    ];
-}
-
-function get_channel_ids($base_listing_url) {
-    echo "[INFO] Fetching listing: $base_listing_url\n";
-    $opts = [
-        "http" => [
-            "header" => "User-Agent: Mozilla/5.0\r\n",
-            "timeout" => 12
-        ]
-    ];
-    $context = stream_context_create($opts);
-    $html = @file_get_contents($base_listing_url, false, $context);
-    if (!$html) {
-        echo "[FATAL] Failed to fetch listing\n";
-        return [];
-    }
-
-    preg_match_all('/play\.php\?id=([a-fA-F0-9]+)/', $html, $matches);
-    $ids = array_unique($matches[1]);
-    echo "[INFO] Found " . count($ids) . " IDs\n";
-    return $ids;
-}
-
-function save_json($data) {
-    file_put_contents("api_data.json", json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
-    echo "[INFO] Saved api_data.json\n";
-}
-
-$base_listing = getenv("BASE_LISTING_URL");
-$base_stream = getenv("BASE_STREAM_URL");
-
-if (!$base_listing || !$base_stream) {
-    echo "[ERROR] Missing BASE_LISTING_URL or BASE_STREAM_URL\n";
-    exit(1);
-}
-
-$ids = get_channel_ids($base_listing);
-if (empty($ids)) {
-    echo "[WARN] No IDs found\n";
-    exit;
-}
-
-$data = [];
-if (file_exists("api_data.json")) {
-    $data = json_decode(file_get_contents("api_data.json"), true) ?: [];
-}
-
-foreach ($ids as $id) {
-    $info = fetch_and_decrypt_stream_info($base_stream . $id, $id);
-    if ($info) $data[$id] = $info;
-}
-
-save_json($data);
-?>
-PHP
+          <?php
+          function xor_decrypt($data_base64, $key) {
+              $decoded = base64_decode($data_base64);
+              $output = '';
+              $keylen = strlen($key);
+              for ($i = 0; $i < strlen($decoded); $i++) {
+                  $output .= chr(ord($decoded[$i]) ^ ord($key[$i % $keylen]));
+              }
+              return $output;
+          }
+          
+          function fetch_and_decrypt_stream_info($url, $content_id) {
+              echo "→ Processing ID: $content_id\n";
+              $opts = [
+                  "http" => [
+                      "header" => "User-Agent: Mozilla/5.0\r\n",
+                      "timeout" => 12
+                  ]
+              ];
+              $context = stream_context_create($opts);
+              $html = @file_get_contents($url, false, $context);
+              if (!$html) {
+                  echo "  [ERROR] Failed to fetch $url\n";
+                  return null;
+              }
+          
+              preg_match('/const decryptionKey = "(.*?)";/', $html, $keyMatch);
+              preg_match('/let encrypted = "(.*?)";/', $html, $encMatch);
+              if (empty($keyMatch[1]) || empty($encMatch[1])) {
+                  echo "  [WARN] Missing key/encrypted data\n";
+                  return null;
+              }
+          
+              $decrypted = xor_decrypt($encMatch[1], $keyMatch[1]);
+              preg_match("/const mpdUrl = '(.*?)';/", $decrypted, $mpd);
+              preg_match("/const kid = '(.*?)';/", $decrypted, $kid);
+              preg_match("/const key = '(.*?)';/", $decrypted, $keyv);
+          
+              if (empty($mpd[1]) || empty($kid[1]) || empty($keyv[1])) {
+                  echo "  [WARN] Missing mpd/kid/key info\n";
+                  return null;
+              }
+          
+              return [
+                  "mpdUrl" => $mpd[1],
+                  "kid" => $kid[1],
+                  "key" => $keyv[1]
+              ];
+          }
+          
+          function get_channel_ids($base_listing_url) {
+              echo "[INFO] Fetching listing: $base_listing_url\n";
+              $opts = [
+                  "http" => [
+                      "header" => "User-Agent: Mozilla/5.0\r\n",
+                      "timeout" => 12
+                  ]
+              ];
+              $context = stream_context_create($opts);
+              $html = @file_get_contents($base_listing_url, false, $context);
+              if (!$html) {
+                  echo "[FATAL] Failed to fetch listing\n";
+                  return [];
+              }
+          
+              preg_match_all('/play\.php\?id=([a-fA-F0-9]+)/', $html, $matches);
+              $ids = array_unique($matches[1]);
+              echo "[INFO] Found " . count($ids) . " IDs\n";
+              return $ids;
+          }
+          
+          function save_json($data) {
+              file_put_contents("api_data.json", json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+              echo "[INFO] Saved api_data.json\n";
+          }
+          
+          $base_listing = getenv("BASE_LISTING_URL");
+          $base_stream = getenv("BASE_STREAM_URL");
+          
+          if (!$base_listing || !$base_stream) {
+              echo "[ERROR] Missing BASE_LISTING_URL or BASE_STREAM_URL\n";
+              exit(1);
+          }
+          
+          $ids = get_channel_ids($base_listing);
+          if (empty($ids)) {
+              echo "[WARN] No IDs found\n";
+              exit;
+          }
+          
+          $data = [];
+          if (file_exists("api_data.json")) {
+              $data = json_decode(file_get_contents("api_data.json"), true) ?: [];
+          }
+          
+          foreach ($ids as $id) {
+              $info = fetch_and_decrypt_stream_info($base_stream . $id, $id);
+              if ($info) $data[$id] = $info;
+          }
+          
+          save_json($data);
+          ?>
+          PHP
 
       - name: Commit and push if changed
         run: |
