@@ -8,11 +8,27 @@
         "match": "Europe - UEFA Champions League"
     },
     {
+        "id": "68d08d09e10aa",
+        "match": "Club Brugge vs Barcelona"
+    },
+    {
+        "id": "68bdd1c77daab",
+        "match": "Club Brugge vs Barcelona"
+    },
+    {
+        "id": "682adc5bb3d75",
+        "match": "Manchester City vs Borussia Dortmund"
+    },
+    {
+        "id": "6909d4b37fb29",
+        "match": "Manchester City vs Borussia Dortmund"
+    },
+    {
         "id": "690a5fe8f2439",
         "match": "Europe - UEFA Champions League"
     },
     {
-        "id": "690a5c7356220",
+        "id": "68ce9a2d2f034",
         "match": "Europe - UEFA Champions League"
     },
     {
@@ -24,7 +40,7 @@
         "match": "Europe - UEFA Champions League"
     },
     {
-        "id": "68ce988148dfe",
+        "id": "68cef97684258",
         "match": "Europe - UEFA Champions League"
     }
 ]
