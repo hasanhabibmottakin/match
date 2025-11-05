@@ -2,8 +2,8 @@ name: Auto Update Stream API
 
 on:
   schedule:
-    - cron: "*/20 * * * *"  
-  workflow_dispatch:        
+    - cron: "*/20 * * * *"   
+  workflow_dispatch:         
 
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
@@ -32,17 +32,17 @@ jobs:
           BASE_STREAM_URL: ${{ secrets.BASE_STREAM_URL }}
         run: |
           cat > scraper.py <<'PYCODE'
-import requests, re, base64, json
+#!/usr/bin/env python3
+import requests, re, base64, json, os
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
-import os
 
 def xor_decrypt(data_base64, key):
     try:
         decoded_bytes = base64.b64decode(data_base64)
         output = []
+        key_len = len(key)
         for i in range(len(decoded_bytes)):
-            output.append(chr(decoded_bytes[i] ^ ord(key[i % len(key)])))
+            output.append(chr(decoded_bytes[i] ^ ord(key[i % key_len])))
         return "".join(output)
     except Exception as e:
         print(f"[ERROR] Decryption error: {e}")
@@ -52,7 +52,9 @@ def fetch_and_decrypt_stream_info(url, content_id):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     print(f"\n-> Processing ID: {content_id}")
     try:
-        html = requests.get(url, headers=headers, timeout=10).text
+        response = requests.get(url, headers=headers, timeout=12)
+        response.raise_for_status()
+        html = response.text
     except Exception as e:
         print(f"[ERROR] Fetch error for {url}: {e}")
         return None
@@ -60,25 +62,31 @@ def fetch_and_decrypt_stream_info(url, content_id):
     key_match = re.search(r'const decryptionKey = "(.*?)";', html)
     enc_match = re.search(r'let encrypted = "(.*?)";', html)
     if not key_match or not enc_match:
-        print("[WARN] Missing key/encrypted data")
+        print("[WARN] Missing key/encrypted data on page.")
         return None
 
     decrypted = xor_decrypt(enc_match.group(1), key_match.group(1))
-    if not decrypted: return None
+    if not decrypted:
+        return None
 
     mpd = re.search(r"const mpdUrl = '(.*?)';", decrypted)
     kid = re.search(r"const kid = '(.*?)';", decrypted)
     keyv = re.search(r"const key = '(.*?)';", decrypted)
     if not mpd or not kid or not keyv:
-        print("[WARN] Missing mpd/kid/key info")
+        print("[WARN] Missing mpd/kid/key info in decrypted payload.")
         return None
 
     return {"mpdUrl": mpd.group(1), "kid": kid.group(1), "key": keyv.group(1)}
 
 def get_channel_ids(base_listing_url):
+    if not base_listing_url:
+        print("[ERROR] BASE_LISTING_URL not set.")
+        return []
     print(f"[INFO] Fetching listing from: {base_listing_url}")
     try:
-        html = requests.get(base_listing_url, timeout=10).text
+        response = requests.get(base_listing_url, timeout=12, headers={'User-Agent': 'Mozilla/5.0'})
+        response.raise_for_status()
+        html = response.text
     except Exception as e:
         print(f"[FATAL] Listing fetch failed: {e}")
         return []
@@ -86,8 +94,10 @@ def get_channel_ids(base_listing_url):
     soup = BeautifulSoup(html, 'html.parser')
     ids = set()
     for link in soup.select('div.channel a[href*="play.php?id="]'):
-        m = re.search(r'id=([a-fA-F0-9]+)', link['href'])
-        if m: ids.add(m.group(1))
+        href = link.get('href', '')
+        m = re.search(r'id=([a-fA-F0-9]+)', href)
+        if m:
+            ids.add(m.group(1))
     print(f"[INFO] Found {len(ids)} IDs")
     return list(ids)
 
@@ -101,28 +111,31 @@ def main():
     base_stream = os.getenv("BASE_STREAM_URL")
     ids = get_channel_ids(base_listing)
     if not ids:
-        print("[WARN] No IDs found.")
+        print("[WARN] No IDs found. Exiting.")
         return
+
     try:
         with open("api_data.json", "r") as f:
             data = json.load(f)
-    except:
+    except Exception:
         data = {}
+
     for cid in ids:
         info = fetch_and_decrypt_stream_info(f"{base_stream}{cid}", cid)
-        if info: data[cid] = info
+        if info:
+            data[cid] = info
+
     save_json(data)
 
 if __name__ == "__main__":
     main()
 PYCODE
 
-          python scraper.py
+          python3 scraper.py
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add api_data.json
-          git commit -m "Auto update API data" || echo "No changes to commit"
-          git push
+          git add api_data.json || true
+          git diff --staged --quiet || (git commit -m "Auto update API data" && git push)
