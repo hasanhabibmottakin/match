@@ -21,12 +21,11 @@ jobs:
         with:
           php-version: '8.2'
 
-      - name: Run scraper (Corrected Indentation & Debugging Added)
+      - name: Run scraper (Fixed Regex + Debug Logging)
         env:
           BASE_LISTING_URL: ${{ secrets.BASE_LISTING_URL }}
           BASE_STREAM_URL: ${{ secrets.BASE_STREAM_URL }}
         run: |
-          # --- YAML Fix: All lines below are indented 4 spaces to be part of 'run' ---
           php <<'PHP'
           <?php
           function xor_decrypt($data_base64, $key) {
@@ -38,106 +37,110 @@ jobs:
               }
               return $output;
           }
-          
+
           function fetch_and_decrypt_stream_info($url, $content_id) {
               echo "→ Processing ID: $content_id at $url\n";
               $opts = [
                   "http" => [
-                      "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n", // More robust User-Agent
-                      "timeout" => 15 // Increased timeout slightly
+                      "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
+                      "timeout" => 15
                   ]
               ];
               $context = stream_context_create($opts);
               $html = @file_get_contents($url, false, $context);
               if (!$html) {
-                  echo "  [ERROR] Failed to fetch $url. (Check URL or Firewall/Rate Limiting)\n";
+                  echo "  [ERROR] Failed to fetch $url\n";
                   return null;
               }
-          
-              preg_match('/const decryptionKey = "(.*?)";/', $html, $keyMatch);
-              preg_match('/let encrypted = "(.*?)";/', $html, $encMatch);
+
+              // Flexible pattern: const/var/let + single or double quotes
+              preg_match('/decryptionKey\s*=\s*["\'](.*?)["\']/', $html, $keyMatch);
+              preg_match('/encrypted\s*=\s*["\'](.*?)["\']/', $html, $encMatch);
+
               if (empty($keyMatch[1]) || empty($encMatch[1])) {
-                  echo "  [WARN] Missing key/encrypted data. (Page structure may have changed)\n";
+                  echo "  [WARN] Missing key/encrypted data.\n";
+                  echo "  [DEBUG] Page snippet: " . substr(strip_tags($html), 0, 200) . "...\n";
                   return null;
               }
+
               echo "  [DEBUG] Found Key and Encrypted Data.\n";
-          
               $decrypted = xor_decrypt($encMatch[1], $keyMatch[1]);
-              preg_match("/const mpdUrl = '(.*?)';/", $decrypted, $mpd);
-              preg_match("/const kid = '(.*?)';/", $decrypted, $kid);
-              preg_match("/const key = '(.*?)';/", $decrypted, $keyv);
-          
+
+              preg_match("/mpdUrl\s*=\s*['\"](.*?)['\"]/", $decrypted, $mpd);
+              preg_match("/kid\s*=\s*['\"](.*?)['\"]/", $decrypted, $kid);
+              preg_match("/key\s*=\s*['\"](.*?)['\"]/", $decrypted, $keyv);
+
               if (empty($mpd[1]) || empty($kid[1]) || empty($keyv[1])) {
                   echo "  [WARN] Missing mpd/kid/key info in decrypted data.\n";
-                  echo "  [DEBUG] Decrypted content snippet: " . substr($decrypted, 0, 100) . "...\n"; 
+                  echo "  [DEBUG] Decrypted snippet: " . substr($decrypted, 0, 120) . "...\n";
                   return null;
               }
-              echo "  [DEBUG] Decryption successful. Found all required info.\n";
 
+              echo "  [DEBUG] Decryption successful.\n";
               return [
                   "mpdUrl" => $mpd[1],
                   "kid" => $kid[1],
                   "key" => $keyv[1]
               ];
           }
-          
+
           function get_channel_ids($base_listing_url) {
               echo "[INFO] Fetching listing: $base_listing_url\n";
               $opts = [
                   "http" => [
-                      "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n",
+                      "header" => "User-Agent: Mozilla/5.0\r\n",
                       "timeout" => 15
                   ]
               ];
               $context = stream_context_create($opts);
               $html = @file_get_contents($base_listing_url, false, $context);
               if (!$html) {
-                  echo "[FATAL] Failed to fetch listing (Check BASE_LISTING_URL and access)\n";
+                  echo "[FATAL] Failed to fetch listing URL.\n";
                   return [];
               }
-          
-              preg_match_all('/play\.php\?id=([a-fA-F0-9]+)/', $html, $matches);
+
+              // Updated regex: supports play.php?id=123 or play.php/123 or stream.php/abc
+              preg_match_all('/(?:play|stream)\.php(?:\?id=|\/)([a-zA-Z0-9]+)/', $html, $matches);
               $ids = array_unique($matches[1]);
-              echo "[INFO] Found " . count($ids) . " IDs\n";
-              
+              echo "[INFO] Found " . count($ids) . " channel IDs\n";
+
               if (count($ids) === 0) {
-                  echo "[WARN] Regex did not match any IDs. Listing page structure may have changed.\n";
+                  echo "[WARN] No IDs found. Listing page structure may have changed.\n";
+                  echo "[DEBUG] Listing snippet: " . substr(strip_tags($html), 0, 200) . "...\n";
               }
-              
+
               return $ids;
           }
-          
+
           function save_json($data) {
-              // Ensure we save an empty JSON object {} if no data was processed, not an empty array [].
-              if (empty($data) && is_array($data)) {
+              if (empty($data)) {
+                  echo "[WARN] No valid data. Saving empty JSON {}\n";
                   $json_to_save = json_encode(new \stdClass(), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-                  echo "[WARN] Saving empty data as JSON object: {}\n";
               } else {
+                  echo "[INFO] Saving api_data.json with " . count($data) . " entries.\n";
                   $json_to_save = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-                  echo "[INFO] Saved api_data.json with " . count($data) . " entries.\n";
               }
               file_put_contents("api_data.json", $json_to_save);
           }
-          
+
           $base_listing = getenv("BASE_LISTING_URL");
-          $base_stream = getenv("BASE_STREAM_URL");
-          
+          $base_stream  = getenv("BASE_STREAM_URL");
+
           if (!$base_listing || !$base_stream) {
               echo "[ERROR] Missing BASE_LISTING_URL or BASE_STREAM_URL secrets.\n";
               exit(1);
           }
-          
+
           $data = [];
           if (file_exists("api_data.json")) {
-              // Decode existing data as associative array
               $data = json_decode(file_get_contents("api_data.json"), true) ?: [];
           }
-          
+
           $ids = get_channel_ids($base_listing);
-          
+
           if (empty($ids)) {
-              echo "[FATAL] Script ending early: No IDs found to process.\n";
-              save_json($data); 
+              echo "[FATAL] No IDs to process.\n";
+              save_json($data);
               exit;
           }
 
@@ -145,13 +148,12 @@ jobs:
           foreach ($ids as $id) {
               $info = fetch_and_decrypt_stream_info($base_stream . $id, $id);
               if ($info) {
-                $data[$id] = $info;
-                $updated_count++;
+                  $data[$id] = $info;
+                  $updated_count++;
               }
           }
-          
-          echo "[SUMMARY] Successfully processed $updated_count streams out of " . count($ids) . " IDs found.\n";
-          
+
+          echo "[SUMMARY] Processed $updated_count streams out of " . count($ids) . " IDs.\n";
           save_json($data);
           ?>
           PHP
@@ -160,7 +162,5 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          # '|| true' allows this step to succeed even if the file isn't found initially
           git add api_data.json || true
-          # Check if there are staged changes; if so, commit and push
           git diff --staged --quiet || (git commit -m "Auto update API data (PHP)" && git push)
