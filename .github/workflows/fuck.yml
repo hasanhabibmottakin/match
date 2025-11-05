@@ -1,4 +1,4 @@
-name: Auto Update Stream API (Node.js)
+name: Auto Update Stream API (PHP)
 
 on:
   schedule:
@@ -16,116 +16,124 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
         with:
-          node-version: "20"
-
-      - name: Install dependencies
-        run: |
-          npm install axios jsdom
+          php-version: '8.2'
 
       - name: Run scraper
         env:
           BASE_LISTING_URL: ${{ secrets.BASE_LISTING_URL }}
           BASE_STREAM_URL: ${{ secrets.BASE_STREAM_URL }}
         run: |
-          node <<'JS'
-import axios from "axios";
-import { JSDOM } from "jsdom";
-import fs from "fs";
-
-async function xorDecrypt(dataBase64, key) {
-  const decoded = Buffer.from(dataBase64, "base64");
-  const keyChars = key.split("").map((c) => c.charCodeAt(0));
-  const output = decoded.map((b, i) => b ^ keyChars[i % keyChars.length]);
-  return Buffer.from(output).toString("utf8");
+          php <<'PHP'
+<?php
+function xor_decrypt($data_base64, $key) {
+    $decoded = base64_decode($data_base64);
+    $output = '';
+    $keylen = strlen($key);
+    for ($i = 0; $i < strlen($decoded); $i++) {
+        $output .= chr(ord($decoded[$i]) ^ ord($key[$i % $keylen]));
+    }
+    return $output;
 }
 
-async function fetchAndDecryptStreamInfo(url, contentId) {
-  console.log(`→ Processing ID: ${contentId}`);
-  try {
-    const { data: html } = await axios.get(url, {
-      headers: { "User-Agent": "Mozilla/5.0" },
-      timeout: 12000,
-    });
-
-    const keyMatch = html.match(/const decryptionKey = "(.*?)";/);
-    const encMatch = html.match(/let encrypted = "(.*?)";/);
-
-    if (!keyMatch || !encMatch) {
-      console.log("  [WARN] Missing key/encrypted data");
-      return null;
+function fetch_and_decrypt_stream_info($url, $content_id) {
+    echo "→ Processing ID: $content_id\n";
+    $opts = [
+        "http" => [
+            "header" => "User-Agent: Mozilla/5.0\r\n",
+            "timeout" => 12
+        ]
+    ];
+    $context = stream_context_create($opts);
+    $html = @file_get_contents($url, false, $context);
+    if (!$html) {
+        echo "  [ERROR] Failed to fetch $url\n";
+        return null;
     }
 
-    const decrypted = await xorDecrypt(encMatch[1], keyMatch[1]);
-    const mpd = decrypted.match(/const mpdUrl = '(.*?)';/);
-    const kid = decrypted.match(/const kid = '(.*?)';/);
-    const keyv = decrypted.match(/const key = '(.*?)';/);
-
-    if (!mpd || !kid || !keyv) {
-      console.log("  [WARN] Missing mpd/kid/key info");
-      return null;
+    preg_match('/const decryptionKey = "(.*?)";/', $html, $keyMatch);
+    preg_match('/let encrypted = "(.*?)";/', $html, $encMatch);
+    if (empty($keyMatch[1]) || empty($encMatch[1])) {
+        echo "  [WARN] Missing key/encrypted data\n";
+        return null;
     }
 
-    return { mpdUrl: mpd[1], kid: kid[1], key: keyv[1] };
-  } catch (err) {
-    console.log("  [ERROR]", err.message);
-    return null;
-  }
+    $decrypted = xor_decrypt($encMatch[1], $keyMatch[1]);
+    preg_match("/const mpdUrl = '(.*?)';/", $decrypted, $mpd);
+    preg_match("/const kid = '(.*?)';/", $decrypted, $kid);
+    preg_match("/const key = '(.*?)';/", $decrypted, $keyv);
+
+    if (empty($mpd[1]) || empty($kid[1]) || empty($keyv[1])) {
+        echo "  [WARN] Missing mpd/kid/key info\n";
+        return null;
+    }
+
+    return [
+        "mpdUrl" => $mpd[1],
+        "kid" => $kid[1],
+        "key" => $keyv[1]
+    ];
 }
 
-async function getChannelIds(listingUrl) {
-  console.log("[INFO] Fetching listing:", listingUrl);
-  try {
-    const { data } = await axios.get(listingUrl, {
-      headers: { "User-Agent": "Mozilla/5.0" },
-      timeout: 15000,
-    });
-    const dom = new JSDOM(data);
-    const links = [...dom.window.document.querySelectorAll('div.channel a[href*="play.php?id="]')];
-    const ids = new Set();
-    links.forEach((a) => {
-      const m = a.href.match(/id=([a-fA-F0-9]+)/);
-      if (m) ids.add(m[1]);
-    });
-    console.log(`[INFO] Found ${ids.size} IDs`);
-    return [...ids];
-  } catch (e) {
-    console.log("[FATAL] Listing fetch failed:", e.message);
-    return [];
-  }
+function get_channel_ids($base_listing_url) {
+    echo "[INFO] Fetching listing: $base_listing_url\n";
+    $opts = [
+        "http" => [
+            "header" => "User-Agent: Mozilla/5.0\r\n",
+            "timeout" => 12
+        ]
+    ];
+    $context = stream_context_create($opts);
+    $html = @file_get_contents($base_listing_url, false, $context);
+    if (!$html) {
+        echo "[FATAL] Failed to fetch listing\n";
+        return [];
+    }
+
+    preg_match_all('/play\.php\?id=([a-fA-F0-9]+)/', $html, $matches);
+    $ids = array_unique($matches[1]);
+    echo "[INFO] Found " . count($ids) . " IDs\n";
+    return $ids;
 }
 
-async function main() {
-  const baseListing = process.env.BASE_LISTING_URL;
-  const baseStream = process.env.BASE_STREAM_URL;
-
-  const ids = await getChannelIds(baseListing);
-  if (ids.length === 0) return console.log("[WARN] No IDs found.");
-
-  let data = {};
-  try {
-    data = JSON.parse(fs.readFileSync("api_data.json", "utf8"));
-  } catch {
-    data = {};
-  }
-
-  for (const id of ids) {
-    const info = await fetchAndDecryptStreamInfo(`${baseStream}${id}`, id);
-    if (info) data[id] = info;
-  }
-
-  fs.writeFileSync("api_data.json", JSON.stringify(data, null, 4));
-  console.log("[INFO] Saved api_data.json");
+function save_json($data) {
+    file_put_contents("api_data.json", json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+    echo "[INFO] Saved api_data.json\n";
 }
 
-await main();
-JS
+$base_listing = getenv("BASE_LISTING_URL");
+$base_stream = getenv("BASE_STREAM_URL");
+
+if (!$base_listing || !$base_stream) {
+    echo "[ERROR] Missing BASE_LISTING_URL or BASE_STREAM_URL\n";
+    exit(1);
+}
+
+$ids = get_channel_ids($base_listing);
+if (empty($ids)) {
+    echo "[WARN] No IDs found\n";
+    exit;
+}
+
+$data = [];
+if (file_exists("api_data.json")) {
+    $data = json_decode(file_get_contents("api_data.json"), true) ?: [];
+}
+
+foreach ($ids as $id) {
+    $info = fetch_and_decrypt_stream_info($base_stream . $id, $id);
+    if ($info) $data[$id] = $info;
+}
+
+save_json($data);
+?>
+PHP
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add api_data.json || true
-          git diff --staged --quiet || (git commit -m "Auto update API data" && git push)
+          git diff --staged --quiet || (git commit -m "Auto update API data (PHP)" && git push)
