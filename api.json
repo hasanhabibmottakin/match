@@ -1,46 +1,6 @@
 [
     {
-        "id": "https://live.inplyr.com/room/109053.m3u8",
-        "match": "UEFA Europa League live"
-    },
-    {
-        "id": "https://live.inplyr.com/room/531989.m3u8",
-        "match": "UEFA Europa League live"
-    },
-    {
-        "id": "https://live.inplyr.com/room/511367.m3u8",
-        "match": "UEFA Europa League live"
-    },
-    {
-        "id": "https://live.inplyr.com/room/547345.m3u8",
-        "match": "UEFA Conference League live"
-    },
-    {
-        "id": "68cef97684258",
-        "match": "UEFA Conference League live"
-    },
-    {
-        "id": "68d08d09e10aa",
-        "match": "UEFA Conference League live"
-    },
-    {
-        "id": "372746",
-        "match": "UEFA Europa League live"
-    },
-    {
-        "id": "68ce988148dfe",
-        "match": "UEFA Europa League live"
-    },
-    {
-        "id": "485739",
-        "match": "UEFA Europa League live"
-    },
-    {
-        "id": "9912092",
-        "match": "UEFA Europa League live"
-    },
-    {
-        "id": "513394",
+        "id": "690a24672df10",
         "match": "UEFA Europa League live"
     },
     {
@@ -48,31 +8,11 @@
         "match": "UEFA Europa League live"
     },
     {
-        "id": "9912097",
+        "id": "68cef97684258",
         "match": "UEFA Europa League live"
     },
     {
         "id": "68ce988148dfe",
-        "match": "Snooker International Championship"
-    },
-    {
-        "id": "68d08d09e10aa",
-        "match": "World Rally Championship Japan"
-    },
-    {
-        "id": "68eccec419f8a",
-        "match": "Pakistan vs South Africa live 1"
-    },
-    {
-        "id": "6909d4bf951bb",
-        "match": "Pakistan vs South Africa live 2"
-    },
-    {
-        "id": "https://live.inplyr.com/room/513394.m3u8",
-        "match": "Saudi Arabia - Pro League Live 1"
-    },
-    {
-        "id": "682c0c1aa105d",
-        "match": "Saudi Arabia - Pro League Live 2"
+        "match": "UEFA Conference League live"
     }
 ]
