@@ -1,166 +1,38 @@
-name: Auto Update Stream API
+name: Auto Stream Scraper
 
 on:
   schedule:
-    - cron: "*/20 * * * *"    
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: "*/20 * * * *"  
+  workflow_dispatch:         
 
 jobs:
-  update-api:
+  run-scraper:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          php-version: '8.2'
+          python-version: '3.11'
 
-      - name: Run scraper (Fixed Regex + Debug Logging)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run scraper
         env:
           BASE_LISTING_URL: ${{ secrets.BASE_LISTING_URL }}
           BASE_STREAM_URL: ${{ secrets.BASE_STREAM_URL }}
+        run: python3 main.py
+
+      - name: Commit & Push updated JSON
         run: |
-          php <<'PHP'
-          <?php
-          function xor_decrypt($data_base64, $key) {
-              $decoded = base64_decode($data_base64);
-              $output = '';
-              $keylen = strlen($key);
-              for ($i = 0; $i < strlen($decoded); $i++) {
-                  $output .= chr(ord($decoded[$i]) ^ ord($key[$i % $keylen]));
-              }
-              return $output;
-          }
-
-          function fetch_and_decrypt_stream_info($url, $content_id) {
-              echo "→ Processing ID: $content_id at $url\n";
-              $opts = [
-                  "http" => [
-                      "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
-                      "timeout" => 15
-                  ]
-              ];
-              $context = stream_context_create($opts);
-              $html = @file_get_contents($url, false, $context);
-              if (!$html) {
-                  echo "  [ERROR] Failed to fetch $url\n";
-                  return null;
-              }
-
-              // Flexible pattern: const/var/let + single or double quotes
-              preg_match('/decryptionKey\s*=\s*["\'](.*?)["\']/', $html, $keyMatch);
-              preg_match('/encrypted\s*=\s*["\'](.*?)["\']/', $html, $encMatch);
-
-              if (empty($keyMatch[1]) || empty($encMatch[1])) {
-                  echo "  [WARN] Missing key/encrypted data.\n";
-                  echo "  [DEBUG] Page snippet: " . substr(strip_tags($html), 0, 200) . "...\n";
-                  return null;
-              }
-
-              echo "  [DEBUG] Found Key and Encrypted Data.\n";
-              $decrypted = xor_decrypt($encMatch[1], $keyMatch[1]);
-
-              preg_match("/mpdUrl\s*=\s*['\"](.*?)['\"]/", $decrypted, $mpd);
-              preg_match("/kid\s*=\s*['\"](.*?)['\"]/", $decrypted, $kid);
-              preg_match("/key\s*=\s*['\"](.*?)['\"]/", $decrypted, $keyv);
-
-              if (empty($mpd[1]) || empty($kid[1]) || empty($keyv[1])) {
-                  echo "  [WARN] Missing mpd/kid/key info in decrypted data.\n";
-                  echo "  [DEBUG] Decrypted snippet: " . substr($decrypted, 0, 120) . "...\n";
-                  return null;
-              }
-
-              echo "  [DEBUG] Decryption successful.\n";
-              return [
-                  "mpdUrl" => $mpd[1],
-                  "kid" => $kid[1],
-                  "key" => $keyv[1]
-              ];
-          }
-
-          function get_channel_ids($base_listing_url) {
-              echo "[INFO] Fetching listing: $base_listing_url\n";
-              $opts = [
-                  "http" => [
-                      "header" => "User-Agent: Mozilla/5.0\r\n",
-                      "timeout" => 15
-                  ]
-              ];
-              $context = stream_context_create($opts);
-              $html = @file_get_contents($base_listing_url, false, $context);
-              if (!$html) {
-                  echo "[FATAL] Failed to fetch listing URL.\n";
-                  return [];
-              }
-
-              // Updated regex: supports play.php?id=123 or play.php/123 or stream.php/abc
-              preg_match_all('/(?:play|stream)\.php(?:\?id=|\/)([a-zA-Z0-9]+)/', $html, $matches);
-              $ids = array_unique($matches[1]);
-              echo "[INFO] Found " . count($ids) . " channel IDs\n";
-
-              if (count($ids) === 0) {
-                  echo "[WARN] No IDs found. Listing page structure may have changed.\n";
-                  echo "[DEBUG] Listing snippet: " . substr(strip_tags($html), 0, 200) . "...\n";
-              }
-
-              return $ids;
-          }
-
-          function save_json($data) {
-              if (empty($data)) {
-                  echo "[WARN] No valid data. Saving empty JSON {}\n";
-                  $json_to_save = json_encode(new \stdClass(), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-              } else {
-                  echo "[INFO] Saving api_data.json with " . count($data) . " entries.\n";
-                  $json_to_save = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-              }
-              file_put_contents("api_data.json", $json_to_save);
-          }
-
-          $base_listing = getenv("BASE_LISTING_URL");
-          $base_stream  = getenv("BASE_STREAM_URL");
-
-          if (!$base_listing || !$base_stream) {
-              echo "[ERROR] Missing BASE_LISTING_URL or BASE_STREAM_URL secrets.\n";
-              exit(1);
-          }
-
-          $data = [];
-          if (file_exists("api_data.json")) {
-              $data = json_decode(file_get_contents("api_data.json"), true) ?: [];
-          }
-
-          $ids = get_channel_ids($base_listing);
-
-          if (empty($ids)) {
-              echo "[FATAL] No IDs to process.\n";
-              save_json($data);
-              exit;
-          }
-
-          $updated_count = 0;
-          foreach ($ids as $id) {
-              $info = fetch_and_decrypt_stream_info($base_stream . $id, $id);
-              if ($info) {
-                  $data[$id] = $info;
-                  $updated_count++;
-              }
-          }
-
-          echo "[SUMMARY] Processed $updated_count streams out of " . count($ids) . " IDs.\n";
-          save_json($data);
-          ?>
-          PHP
-
-      - name: Commit and push if changed
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add api_data.json || true
-          git diff --staged --quiet || (git commit -m "Auto update API data (PHP)" && git push)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add api_data.json
+          git commit -m "Auto update: refreshed api_data.json" || echo "No changes to commit"
+          git push
