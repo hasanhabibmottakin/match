@@ -1,5 +1,21 @@
 [
     {
+        "id": "https://live.inplyr.com/room/109053.m3u8",
+        "match": "UEFA Europa League live"
+    },
+    {
+        "id": "https://live.inplyr.com/room/531989.m3u8",
+        "match": "UEFA Europa League live"
+    },
+    {
+        "id": "https://live.inplyr.com/room/511367.m3u8",
+        "match": "UEFA Europa League live"
+    },
+    {
+        "id": "https://live.inplyr.com/room/547345.m3u8",
+        "match": "UEFA Conference League live"
+    },
+    {
         "id": "68cef97684258",
         "match": "UEFA Conference League live"
     },
