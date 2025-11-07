@@ -36,7 +36,7 @@
         "match": "Italy - Serie A Live 4"
     },
     {
-        "id": "https://live.inplyr.com/room/484845.m3u8",
+        "id": "690e385e5d9ab",
         "match": "Germany - Bundesliga Live 1"
     },
     {
@@ -58,5 +58,13 @@
     {
         "id": "6907a769c2a83",
         "match": "France - Ligue 1 Live 2"
+    },
+    {
+        "id": "68d8088d1c169",
+        "match": "England - Championship"
+    },
+    {
+        "id": "682c0c1aa105d",
+        "match": "England - Championship"
     }
 ]
