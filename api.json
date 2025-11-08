@@ -8,18 +8,6 @@
         "match": "Spain - La Liga Live 4"
     },
     {
-        "id": "690f5ade05857",
-        "match": "Germany - Bundesliga Live 2"
-    },
-    {
-        "id": "68d82324947c5",
-        "match": "Germany - Bundesliga Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/511367.m3u8",
-        "match": "Germany - Bundesliga Live 4"
-    },
-    {
         "id": "https://live.inplyr.com/room/285067.m3u8",
         "match": "Saudi Arabia - Pro League Live 3"
     },
@@ -42,6 +30,14 @@
     {
         "id": "68d82324947c5",
         "match": "Italy - Serie A Live 4"
+    },
+    {
+        "id": "690f80e7bca9f",
+        "match": "Germany - Bundesliga Live 1"
+    },
+    {
+        "id": "690f5ade05857",
+        "match": "Germany - Bundesliga Live 2"
     },
     {
         "id": "https://live.inplyr.com/room/534219.m3u8",
