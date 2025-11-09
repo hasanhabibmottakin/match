@@ -54,5 +54,21 @@
     {
         "id": "https://live.inplyr.com/room/511367.m3u8",
         "match": "Germany - Bundesliga Live 4"
+    },
+    {
+        "id": "690e34fa40696",
+        "match": "France - Ligue 1 Live 1"
+    },
+    {
+        "id": "https://live.inplyr.com/room/534219.m3u8",
+        "match": "France - Ligue 1 Live 2"
+    },
+    {
+        "id": "6907867872da5",
+        "match": "France - Ligue 1 Live 3"
+    },
+    {
+        "id": "https://live.inplyr.com/room/511367.m3u8",
+        "match": "France - Ligue 1 Live 4"
     }
 ]
