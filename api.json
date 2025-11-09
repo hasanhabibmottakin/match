@@ -16,6 +16,14 @@
         "match": "Spain - La Liga Live 4"
     },
     {
+        "id": "6910ac7827cd5",
+        "match": "France - Ligue 1 Live 1"
+    },
+    {
+        "id": "690e3808410fb",
+        "match": "France - Ligue 1 Live 2"
+    },
+    {
         "id": "69061a2774033",
         "match": "England - Premier League Live 5"
     },
@@ -44,7 +52,7 @@
         "match": "Germany - Bundesliga Live 2"
     },
     {
-        "id": "690e3808410fb",
+        "id": "6910ac7827cd5",
         "match": "France - Ligue 1 Live 1"
     },
     {
