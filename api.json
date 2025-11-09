@@ -4,8 +4,12 @@
         "match": "England - Premier League Live 1"
     },
     {
-        "id": "6910a0d30305a",
+        "id": "https://live.inplyr.com/room/187579.m3u8",
         "match": "England - Premier League Live 2"
+    },
+    {
+        "id": "https://live.inplyr.com/room/123226.m3u8",
+        "match": "England - Premier League Live 3"
     },
     {
         "id": "682ac43d04391",
