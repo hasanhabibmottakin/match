@@ -4,7 +4,7 @@
         "match": "Spain - La Liga Live 3"
     },
     {
-        "id": "68d227aae5ccd",
+        "id": "6910aedf238cb",
         "match": "Spain - La Liga Live 4"
     },
     {
@@ -12,24 +12,16 @@
         "match": "England - Premier League Live 1"
     },
     {
-        "id": "https://live.inplyr.com/room/187579.m3u8",
+        "id": "6910ad2c49bf3",
         "match": "England - Premier League Live 2"
     },
     {
-        "id": "https://live.inplyr.com/room/123226.m3u8",
+        "id": "6910ac8b61427",
         "match": "England - Premier League Live 3"
     },
     {
         "id": "682ac43d04391",
         "match": "England - Premier League Live 4"
-    },
-    {
-        "id": "682ad8e91af89",
-        "match": "Spain - La Liga Live 1"
-    },
-    {
-        "id": "682b432ec5859",
-        "match": "Spain - La Liga Live 2"
     },
     {
         "id": "69061a2774033",
@@ -44,7 +36,7 @@
         "match": "Italy - Serie A Live 2"
     },
     {
-        "id": "69109f4b9c29e",
+        "id": "6910ad944d8ec",
         "match": "Italy - Serie A Live 3"
     },
     {
@@ -58,14 +50,6 @@
     {
         "id": "690f5ade05857",
         "match": "Germany - Bundesliga Live 2"
-    },
-    {
-        "id": "68d82324947c5",
-        "match": "Germany - Bundesliga Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/511367.m3u8",
-        "match": "Germany - Bundesliga Live 4"
     },
     {
         "id": "6910a02399bf7",
