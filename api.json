@@ -1,57 +1,5 @@
 [
     {
-        "id": "682ad8e91af89",
-        "match": "Spain - La Liga Live 1"
-    },
-    {
-        "id": "https://live.inplyr.com/room/491873.m3u8",
-        "match": "Spain - La Liga Live 2"
-    },
-    {
-        "id": "682ad8e91af89",
-        "match": "Spain - La Liga Live 3"
-    },
-    {
-        "id": "6910aedf238cb",
-        "match": "Spain - La Liga Live 4"
-    },
-    {
-        "id": "6910ac7827cd5",
-        "match": "France - Ligue 1 Live 1"
-    },
-    {
-        "id": "690e3808410fb",
-        "match": "France - Ligue 1 Live 2"
-    },
-    {
-        "id": "69061a2774033",
-        "match": "England - Premier League Live 5"
-    },
-    {
-        "id": "682ac43d04391",
-        "match": "England - Premier League Live 6"
-    },
-    {
-        "id": "68d82324947c5",
-        "match": "Italy - Serie A Live 2"
-    },
-    {
-        "id": "68d82324947c5",
-        "match": "Italy - Serie A Live 3"
-    },
-    {
-        "id": "68ce988148dfe",
-        "match": "Italy - Serie A Live 4"
-    },
-    {
-        "id": "https://live.inplyr.com/room/344370.m3u8",
-        "match": "Germany - Bundesliga Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/344370.m3u8",
-        "match": "Germany - Bundesliga Live 4"
-    },
-    {
         "id": "68ce988148dfe",
         "match": "New Zealand vs West Indies"
     },
