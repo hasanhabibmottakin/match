@@ -1413,5 +1413,15 @@
         "mpdUrl": "https://nog-live1-ott.izzigo.tv/2/out/u/dash/SKYSPORTS16HD/default.mpd",
         "kid": "c88dc6c668cac3b468d4a4c7e176ff3d",
         "key": "1aeb739de2c14ed0ad658ca8043208d8"
+    },
+    "6914c847e8b5f": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd",
+        "kid": "d9623774ac5c8c351aafe97c5fe70267",
+        "key": "5164e6d05164a2d65fa8fcc962aa4861"
+    },
+    "6914c82d705dd": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.m",
+        "kid": "d9623774ac5c8c351aafe97c5fe70267",
+        "key": "5164e6d05164a2d65fa8fcc962aa4861"
     }
 }
