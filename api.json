@@ -1,19 +1,7 @@
 [
     {
-        "id": "6914c847e8b5f",
-        "match": "UEFA Women\\'s Champions League"
-    },
-    {
-        "id": "https://live.inplyr.com/room/485739.m3u8",
-        "match": "UEFA Women\\'s Champions League"
-    },
-    {
-        "id": "68ce988148dfe",
-        "match": "New Zealand vs West Indies"
-    },
-    {
-        "id": "6914c7418dd09",
-        "match": "New Zealand vs West Indies"
+        "id": "380460",
+        "match": "Bangladesh vs Nepal live 1"
     },
     {
         "id": "682c0c1aa105d",
@@ -30,9 +18,5 @@
     {
         "id": "682ae12d9c7cd",
         "match": "Pakistan vs Sri Lanka LIVE 2"
-    },
-    {
-        "id": "380460",
-        "match": "Bangladesh vs Afghanistan live 1"
     }
 ]
