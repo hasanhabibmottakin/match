@@ -4,7 +4,7 @@
         "match": "World Cup Qualifying Live 1"
     },
     {
-        "id": "682c0c1aa105d",
+        "id": "https://live.inplyr.com/room/327159.m3u8",
         "match": "World Cup Qualifying Live 2"
     },
     {
@@ -12,8 +12,20 @@
         "match": "World Cup Qualifying Live 1"
     },
     {
+        "id": "69160010156f9",
+        "match": "World Cup Qualifying Live 3"
+    },
+    {
         "id": "6915fed0ea581",
         "match": "World Cup Qualifying Live 4"
+    },
+    {
+        "id": "68ce988148dfe",
+        "match": "India vs South Africa Live 1"
+    },
+    {
+        "id": "68cef97684258",
+        "match": "India vs South Africa Live 2"
     },
     {
         "id": "682c0c1aa105d",
