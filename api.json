@@ -1,45 +1,5 @@
 [
     {
-        "id": "6915fc42c7e74",
-        "match": "World Cup Qualifying Live 1"
-    },
-    {
-        "id": "https://live.inplyr.com/room/327159.m3u8",
-        "match": "World Cup Qualifying Live 2"
-    },
-    {
-        "id": "https://live.inplyr.com/room/472241.m3u8",
-        "match": "World Cup Qualifying Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/532999.m3u8",
-        "match": "World Cup Qualifying Live 4"
-    },
-    {
-        "id": "https://live.inplyr.com/room/472241.m3u8",
-        "match": "World Cup Qualifying Live 3"
-    },
-    {
-        "id": "https://live.inplyr.com/room/532999.m3u8",
-        "match": "World Cup Qualifying Live 4"
-    },
-    {
-        "id": "https://live.inplyr.com/room/235232.m3u8",
-        "match": "World Cup Qualifying Live 5"
-    },
-    {
-        "id": "686eae45d0e0c",
-        "match": "World Cup Qualifying Live 1"
-    },
-    {
-        "id": "69160010156f9",
-        "match": "World Cup Qualifying Live 3"
-    },
-    {
-        "id": "6915fed0ea581",
-        "match": "World Cup Qualifying Live 4"
-    },
-    {
         "id": "68ce988148dfe",
         "match": "India vs South Africa Live 1"
     },
