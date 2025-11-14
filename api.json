@@ -1,5 +1,13 @@
 [
     {
+        "id": "69173811d0feb",
+        "match": "World Cup Qualifying Live 1"
+    },
+    {
+        "id": "691737edc371b",
+        "match": "World Cup Qualifying Live 2"
+    },
+    {
         "id": "https://live.inplyr.com/room/474421.m3u8",
         "match": "South Korea vs Bolivia"
     },
