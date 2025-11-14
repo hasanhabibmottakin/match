@@ -1488,5 +1488,10 @@
         "mpdUrl": "https://cdn.cvattv.com.ar/live/c4eds/Telefe_Internacional/SA_Live_dash_enc/Telefe_Internacional.mpd",
         "kid": "cc0abcc84ec380cfc192b96d32abad23",
         "key": "9b7825385b89ff82d01909a4ae404877"
+    },
+    "69173db5901bd": {
+        "mpdUrl": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "kid": "11223344556677889900112233445566",
+        "key": "4b80724d0ef86bcb2c21f7999d67739d"
     }
 }
