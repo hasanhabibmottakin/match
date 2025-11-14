@@ -1453,5 +1453,40 @@
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/yfdjxk4tdh/out/v1/8464867f2e9945ff8d4ed1a73cf3a3e9/cenc.mpd",
         "kid": "58a88a92d7046f2cff35326adb10f4bd",
         "key": "53e93fce334d3ab4b3865af74e375a34"
+    },
+    "691737edc371b": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "kid": "09453ce820d65fbc675de3185f9e454c",
+        "key": "98cff9600995fa381c76fdacf3c7edae"
+    },
+    "691736a781488": {
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/0u1gpmhaqa/out/v1/a7991c2837a340d3bdb85e57f724acdf/cenc.mpd",
+        "kid": "c4b8417b841ed7988746bfa631a8c1ac",
+        "key": "ad2f28587a1e0b3ff5fa86cfeb991127"
+    },
+    "691736c1db947": {
+        "mpdUrl": "Lcc0abcc84ec380cfc192b96d32abad23:9b7825385b89ff82d01909a4ae404877",
+        "kid": "",
+        "key": ""
+    },
+    "691734f919c3b": {
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/0u1gpmhaqa/out/v1/a7991c2837a340d3bdb85e57f724acdf/cenc.mpd",
+        "kid": "c4b8417b841ed7988746bfa631a8c1ac",
+        "key": "ad2f28587a1e0b3ff5fa86cfeb991127"
+    },
+    "691734e31bff0": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "kid": "09453ce820d65fbc675de3185f9e454c",
+        "key": "98cff9600995fa381c76fdacf3c7edae"
+    },
+    "69173811d0feb": {
+        "mpdUrl": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+        "kid": "11223344556677889900112233445566",
+        "key": "4b80724d0ef86bcb2c21f7999d67739d"
+    },
+    "691735aea4cae": {
+        "mpdUrl": "https://cdn.cvattv.com.ar/live/c4eds/Telefe_Internacional/SA_Live_dash_enc/Telefe_Internacional.mpd",
+        "kid": "cc0abcc84ec380cfc192b96d32abad23",
+        "key": "9b7825385b89ff82d01909a4ae404877"
     }
 }
