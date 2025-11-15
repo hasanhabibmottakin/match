@@ -1493,5 +1493,30 @@
         "mpdUrl": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
         "kid": "11223344556677889900112233445566",
         "key": "4b80724d0ef86bcb2c21f7999d67739d"
+    },
+    "691888d9657fe": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+        "kid": "4bbcff3289d457b4dd5dbdd21221de9a",
+        "key": "c4906b9a9f8dda3c0725bddb8c497733"
+    },
+    "69188af3de0d1": {
+        "mpdUrl": "https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8",
+        "kid": "",
+        "key": ""
+    },
+    "69188a3c7ba89": {
+        "mpdUrl": "https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8",
+        "kid": "",
+        "key": ""
+    },
+    "691888b1eb16c": {
+        "mpdUrl": "https://ablhv3zaaaaaaaammndourvrl7ioa.otte.live.cf.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd",
+        "kid": "3de028eafb3b2caffec03be1c1c818b3",
+        "key": "8fbdd8a9ae6748696bb13e547bb093fc"
+    },
+    "69188b22c4c5a": {
+        "mpdUrl": "https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8",
+        "kid": "",
+        "key": ""
     }
 }
