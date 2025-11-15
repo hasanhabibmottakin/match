@@ -540,9 +540,9 @@
         "key": "5f366355e1e2423965f6c0e8592950ec"
     },
     "682a3a0f82acb": {
-        "mpdUrl": "https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(kvea)/master.mpd",
-        "kid": "333962e3e1383529867a9a0e28a5e5d1",
-        "key": "72d631a66e635c60829a0fe7705516c1"
+        "mpdUrl": "https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
+        "kid": "7d6bb9f86e133e4cb33440b493b6b672",
+        "key": "584ad285dcb9e7d42cf3e93f1cc3fe11"
     },
     "6884ac6652053": {
         "mpdUrl": "https://ssc1-ak.akamaized.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd",
