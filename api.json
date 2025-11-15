@@ -1,6 +1,6 @@
 [
     {
-        "id": "686eae45d0e0c",
+        "id": "6915fec25e57c",
         "match": "Brazil vs Senegal"
     },
     {
@@ -8,12 +8,12 @@
         "match": "Brazil vs Senegal"
     },
     {
-        "id": "https://live.inplyr.com/room/484845.m3u8",
-        "match": "Russia vs Chile"
+        "id": "682a3a0f82acb",
+        "match": "USA vs Paraguay live"
     },
     {
-        "id": "https://live.inplyr.com/room/484845.m3u8",
-        "match": "Russia vs Chile"
+        "id": "682ae2aaf08d1",
+        "match": "USA vs Paraguay live"
     },
     {
         "id": "69173db5901bd",
@@ -28,7 +28,7 @@
         "match": "World Cup Qualifying Live 3"
     },
     {
-        "id": "69173db5901bd",
+        "id": "https://live.inplyr.com/room/250874.m3u8",
         "match": "World Cup Qualifying Live 4"
     },
     {
@@ -42,6 +42,14 @@
     {
         "id": "691888b1eb16c",
         "match": "Denmark vs Belarus"
+    },
+    {
+        "id": "68b1c93b68f0b",
+        "match": "Mexico vs Uruguay live"
+    },
+    {
+        "id": "690a24672df10",
+        "match": "Mexico vs Uruguay live"
     },
     {
         "id": "68cef97684258",
