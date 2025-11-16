@@ -1518,5 +1518,10 @@
         "mpdUrl": "https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8",
         "kid": "",
         "key": ""
+    },
+    "69199d33c2d73": {
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/3rqdqblt3k/out/v1/701a0af947414df288da69767aefabc3/cenc-sd.mpd",
+        "kid": "c77739fec9cf1e2657cd09c23d4532bc",
+        "key": "445bd597a03deb653bd057d89ac06606"
     }
 }
