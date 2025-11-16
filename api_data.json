@@ -1523,5 +1523,10 @@
         "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/3rqdqblt3k/out/v1/701a0af947414df288da69767aefabc3/cenc-sd.mpd",
         "kid": "c77739fec9cf1e2657cd09c23d4532bc",
         "key": "445bd597a03deb653bd057d89ac06606"
+    },
+    "6919d61246bcb": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+        "kid": "5466ebd70704bdeb657f0abf3c5ca4ef",
+        "key": "bdd79b72d8e48ed483aa623cc38a8a16"
     }
 }
