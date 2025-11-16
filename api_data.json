@@ -1460,9 +1460,9 @@
         "key": "98cff9600995fa381c76fdacf3c7edae"
     },
     "691736a781488": {
-        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/0u1gpmhaqa/out/v1/a7991c2837a340d3bdb85e57f724acdf/cenc.mpd",
-        "kid": "c4b8417b841ed7988746bfa631a8c1ac",
-        "key": "ad2f28587a1e0b3ff5fa86cfeb991127"
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/3rqdqblt3k/out/v1/701a0af947414df288da69767aefabc3/cenc-sd.mpd7a340d3bdb85e57f724acdf/cenc.mpd",
+        "kid": "c77739fec9cf1e2657cd09c23d4532bc",
+        "key": "445bd597a03deb653bd057d89ac06606"
     },
     "691736c1db947": {
         "mpdUrl": "Lcc0abcc84ec380cfc192b96d32abad23:9b7825385b89ff82d01909a4ae404877",
