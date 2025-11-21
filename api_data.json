@@ -1553,5 +1553,10 @@
         "mpdUrl": "#",
         "kid": "",
         "key": ""
+    },
+    "6920330fe3908": {
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/unphwrnhdm/out/v1/b099c32d36304e01834cc9df1b600a30/cenc-sd.mpd",
+        "kid": "7478fc940c1a5f18056cd8dd1e32786c",
+        "key": "54aeadaa13fa9ef051d68990894ceec4"
     }
 }
