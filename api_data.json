@@ -1585,14 +1585,14 @@
         "key": "af020d1efd9deb7adb62930524f97cdf"
     },
     "6921bf077d71e": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ifwlfkkzaw/out/v1/e8ec156d04f64598b0c6a039275d5627/cenc.mpd",
+        "kid": "a02ed70171b27467748bc520800fefb4",
+        "key": "beca9d53ab12214946d8b0d1755f3b1b"
     },
     "6921bfea80f6d": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jvt7ak0g0y/out/v1/4ae72f0cc8a24376ac3d0eab24e71e86/cenc.mpd",
+        "kid": "3a6c42a981d92447146834b649b29de8",
+        "key": "d8e48fbd8697f3b5ca23489557bad1d5"
     },
     "6921c27c58965": {
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/lsdwfnviqt/out/v1/677f283b86a24eb7b370669d8956a8de/cenc.mpd",
@@ -1600,9 +1600,9 @@
         "key": "c257462ea05969d4774f97ec3e3d23e5"
     },
     "6921bec6eb338": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/hvyb6xgzjs/out/v1/4373422900714196aee3eda4f709bd5d/cenc.mpd",
+        "kid": "fa08a18819d6ac0dea032f6b155642ee",
+        "key": "abe8ac76290a82718cefbcaf65329a6d"
     },
     "6921c20a1a7d1": {
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/vnmislzcdc/out/v1/d5fe1b24651241b78473e1424b536edf/cenc.mpd",
@@ -1620,13 +1620,13 @@
         "key": ""
     },
     "6921bfa1df480": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/j1z3fglo2n/out/v1/82bd64fe29c84c62952461e5e2d284c6/cenc.mpd",
+        "kid": "247d6c58b2561bd3a5090d32d70645e9",
+        "key": "e6459b558d6dee1a311b928daa260611"
     },
     "6921bf5688b3a": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jpddvphjv6/out/v1/caec4e67c03246009461f51fd9280ee1/cenc.mpd",
+        "kid": "8c9f1c9e93a319684412a283e740df93",
+        "key": "2aa3670c69eaf54a30a76080df4b1c93"
     }
 }
