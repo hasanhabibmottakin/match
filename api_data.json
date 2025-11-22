@@ -1563,5 +1563,10 @@
         "mpdUrl": "https://live.inplyr.com/room/434982.m3u8",
         "kid": "",
         "key": ""
+    },
+    "692130d3e1bfb": {
+        "mpdUrl": "https://aba3uy3aaaaaaaamfjv2jyrjdxcj4.otte.live.cf.ww.aiv-cdn.net/sin-nitro/live/dash/enc/1xsggbtjku/out/v1/bfd93216daf6417298bfcc7d3015d823/cenc.mpd",
+        "kid": "2f5ed0dd0a0ca671dee3948dbbe023d4",
+        "key": "7039b2570d5d429c7f4a7a4058ba5135"
     }
 }
