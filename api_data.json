@@ -1615,9 +1615,9 @@
         "key": ""
     },
     "6921c3748b784": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/klwpoquhhj/out/v1/d61bb6d88a8144b7ae46cb99c109b6b2/cenc.mpd",
+        "kid": "08fc67b1a3c507f0e6bfa47a76480682",
+        "key": "3f863d385f385fae6b9d735f7ca0e7b3"
     },
     "6921bfa1df480": {
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/j1z3fglo2n/out/v1/82bd64fe29c84c62952461e5e2d284c6/cenc.mpd",
