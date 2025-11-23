@@ -1450,9 +1450,9 @@
         "key": "fbca9fa0d6d784be974170f82c155938"
     },
     "6916b8ea79dab": {
-        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/yfdjxk4tdh/out/v1/8464867f2e9945ff8d4ed1a73cf3a3e9/cenc.mpd",
-        "kid": "58a88a92d7046f2cff35326adb10f4bd",
-        "key": "53e93fce334d3ab4b3865af74e375a34"
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/vhgudy4dao/out/v1/3d200f70451543f28b5cc4036003159e/cenc-sd.mpd",
+        "kid": "3ae0e1ccf0be38eec41f1220e4a0c110",
+        "key": "4ebe1af5c356ead3da53878995e5c767"
     },
     "691737edc371b": {
         "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
