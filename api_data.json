@@ -475,7 +475,7 @@
         "key": "eebfe14362379376c93625dd1017160e"
     },
     "682ae3e423016": {
-        "mpdUrl": "https://cricrex.live/astro/stream.php/linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_ott.mpd",
+        "mpdUrl": "https://jared-solomon.vercel.app/pro/linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_ott.mpd",
         "kid": "03c2e0af2f8159f9f0ce9b5dbc865f10",
         "key": "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
     },
@@ -1683,5 +1683,10 @@
         "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/j1z3fglo2n/out/v1/82bd64fe29c84c62952461e5e2d284c6/cenc.mpd",
         "kid": "247d6c58b2561bd3a5090d32d70645e9",
         "key": "e6459b558d6dee1a311b928daa260611"
+    },
+    "6922c06145207": {
+        "mpdUrl": "https://priolive.vercel.app/pro/linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_ott.mpd",
+        "kid": "03c2e0af2f8159f9f0ce9b5dbc865f10",
+        "key": "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
     }
 }
