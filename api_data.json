@@ -1688,5 +1688,10 @@
         "mpdUrl": "https://priolive.vercel.app/pro/linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_ott.mpd",
         "kid": "03c2e0af2f8159f9f0ce9b5dbc865f10",
         "key": "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
+    },
+    "6922f31043f8b": {
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/qkninxceqq/out/v1/c012a036c7d94fbe934755d9f66b9f47/cenc.mpd",
+        "kid": "1b803f430c35678cbaf57a3b646a5cbd",
+        "key": "6da6b7dbad36f7ad9b7fb75f6b7d34ebb6f9d5c6bc71dd"
     }
 }
