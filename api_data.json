@@ -1070,9 +1070,9 @@
         "key": "8726ef7eaf5b9dce15fb6aa9f80bd53f"
     },
     "682ad82e1a0b5": {
-        "mpdUrl": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL1-CTR-4s/Live/channel(universo-east)/master.mpd",
-        "kid": "a42669eafed7349499aab7df588b3ccf",
-        "key": "0fbff143ebd097060a377e4ade033288"
+        "mpdUrl": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
+        "kid": "3501bd323a6a35c28eb7654bf298b9aa",
+        "key": "2db4c8089d627e1b2c480c57baa86a7b"
     },
     "68f39e6301c72": {
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/exzo0rg5yd/out/v1/82278d648265484ba604dbd5cb20a9db/cenc.mpd",
