@@ -1833,5 +1833,10 @@
         "mpdUrl": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
         "kid": "11223344556677889900112233445566",
         "key": "4b80724d0ef86bcb2c21f7999d67739d"
+    },
+    "692b31ac988f1": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/fgvhylxgdl/out/v1/7581107b5c60460084782ab1f9b49017/cenc.mpd",
+        "kid": "f9983a850a83b41f3ef8bb73263ed554",
+        "key": "551b6c3187995fd3eddc453ab5bfa3fa"
     }
 }
