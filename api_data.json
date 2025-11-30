@@ -1840,9 +1840,9 @@
         "key": "551b6c3187995fd3eddc453ab5bfa3fa"
     },
     "692c4dcad9c88": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/mlftood17i/out/v1/ae1ce3e9f56f4dc8bd919ea65b1ecd57/cenc.mpd",
+        "kid": "fd0daa0af27d54879ccce611764fd38f",
+        "key": "fcccb6078a2454ae7056773c5c1b29d9"
     },
     "692c4e148d331": {
         "mpdUrl": "@",
