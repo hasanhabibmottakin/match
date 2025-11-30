@@ -1868,5 +1868,10 @@
         "mpdUrl": "#",
         "kid": "",
         "key": ""
+    },
+    "692c71d83d3da": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/nptxfk8rjr/out/v1/69ceaca965624d268ac413f6fb398d88/cenc.mpd",
+        "kid": "851926f445999caeffe7bd8af347e54d",
+        "key": "a83ae87e0505f4056bbeae04c4d4734f"
     }
 }
