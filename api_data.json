@@ -1883,5 +1883,10 @@
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/vtxvsf7xhs/out/v1/6e22ddeb1a2c4f2bb3ade1bfa3d1e2da/cenc.mpd",
         "kid": "71284d00815a6663943db1bc1790fa72",
         "key": "a631af3615c7e547e2b6b1f45c7c58e4"
+    },
+    "692ef8284a130": {
+        "mpdUrl": "https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8",
+        "kid": "",
+        "key": ""
     }
 }
