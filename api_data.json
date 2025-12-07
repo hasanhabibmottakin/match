@@ -1928,5 +1928,10 @@
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/yr19lrgwar/out/v1/794fe1c7b37d415db80f81555662fdb6/cenc.mpd",
         "kid": "8586d57f8ea9ec7c57490e9a8e4ec64c",
         "key": "13ef6a1353260d735051057256f91849"
+    },
+    "693564edd220a": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/cnushuc1hd/out/v1/d886d7ca6010432e815127649a24043e/cenc.mpd",
+        "kid": "a1defda8df18557406f425be801d5de7",
+        "key": "38b1a59356732b246c1732d3370a5a5d"
     }
 }
