@@ -540,9 +540,9 @@
         "key": "5f366355e1e2423965f6c0e8592950ec"
     },
     "682a3a0f82acb": {
-        "mpdUrl": "https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
-        "kid": "7d6bb9f86e133e4cb33440b493b6b672",
-        "key": "584ad285dcb9e7d42cf3e93f1cc3fe11"
+        "mpdUrl": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
+        "kid": "ce7ab3022e753307997f58afe001bac4",
+        "key": "72d631a66e635c60829a0fe7705516c1"
     },
     "6884ac6652053": {
         "mpdUrl": "https://ssc1-ak.akamaized.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd",
@@ -1933,5 +1933,10 @@
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wfd5am5uqe/out/v1/b055c1cc504e4f828162f51fe211c47e/cenc.mpd",
         "kid": "734ead7cf68e329f6029f14ec7e5297c",
         "key": "1f58dcbed1b1fb10f63713276ce622c0"
+    },
+    "6935a1a1edef1": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/zvxwdiopnl/out/v1/80e8edd6300543eda7b88350562a24e1/cenc.mpd",
+        "kid": "ff90739270bf8a4378eddebfbaee5d92",
+        "key": "defae8dd0b8a0edd5b614c24b230ef9a"
     }
 }
