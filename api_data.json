@@ -1943,5 +1943,10 @@
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/5unlrrw2ns/out/v1/1e50593f5b4544c59082e42d3468068a/cenc.mpd",
         "kid": "481cb7857b651fa30eba3dccbf20ef60",
         "key": "2e383b420c0a5e8d20893954751c7aa3"
+    },
+    "693882556002b": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zdrgrbbhks/out/v1/ef0e6bbb998e442893e278ec83cefc29/cenc.mpd",
+        "kid": "b3585f74a3446e1a507ce5bcf0faef51",
+        "key": "4f4c29edceddfe6281dc76cfa022cbe7"
     }
 }
