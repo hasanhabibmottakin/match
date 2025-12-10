@@ -1963,5 +1963,10 @@
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/xfjaegbph9/out/v1/be4e2c46a8d94e369be05449a5c77c2f/cenc.mpd",
         "kid": "f78e70838715092104b3401af714fa95",
         "key": "32dad78770685d2c214d2498f9feeea1"
+    },
+    "6939b301758e6": {
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/gea8tjai6k/out/v1/ef7823a96f4c4e5ca3045a7be4ec5018/cenc.mpd",
+        "kid": "7b6e68789c02f2717393593123e733a4",
+        "key": "4bbe19e3b9f1931556290e471d55aef8"
     }
 }
