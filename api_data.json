@@ -2115,19 +2115,19 @@
         "key": ""
     },
     "693d6c4bb9837": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/bpes9q4fh0/out/v1/4ba28305e72e4167ae0cd754837f7d4e/cenc.mpd",
+        "kid": "35b54a58381697861d517a408a1918ae",
+        "key": "1fd47974880049df58b598e399385bbe"
     },
     "693d6c9cbe06d": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/iffnd45hzj/out/v1/aa690dcd6994477a9b6e0fe1dec82867/cenc.mpd",
+        "kid": "62af888c43400d296d5abe8c07852ca7",
+        "key": "6b59954e1b73e7e49987f37dd70275c4"
     },
     "693d6d108da04": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/2whcmjvau4/out/v1/f174f22adb7e4171aa9e6e279bbab9f8/cenc.mpd",
+        "kid": "61039b7f9fcfcaeff3496d3a6119fa87",
+        "key": "b7f8b515afa7017b7471a2d4b1ff80ed"
     },
     "693d6d4cb565c": {
         "mpdUrl": "#",
@@ -2135,8 +2135,8 @@
         "key": ""
     },
     "693d6ccd9ca11": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/1chi2mfm52/out/v1/485df1ec5e4b4a66918f30b1cb738a24/cenc.mpd",
+        "kid": "0fb3c5033999e007a797998c3ed7a274",
+        "key": "58788f86df5d92da3c344f8d645f4799"
     }
 }
