@@ -2143,5 +2143,10 @@
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/12pgisuaee/out/v1/84086708a0bc422bbd9edcab7e1ecc06/cenc.mpd",
         "kid": "c68a351b432f5910447e39e7431b589f",
         "key": "bf60ef3635b13b19947815bcbad09d2e"
+    },
+    "693e9ae69a80e": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
