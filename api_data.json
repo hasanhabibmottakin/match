@@ -2173,5 +2173,10 @@
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/vy9wj6tob6/out/v1/84086708a0bc422bbd9edcab7e1ecc06/cenc.mpd",
         "kid": "73a6b422b1d873102649147b883b9838",
         "key": "1c522dfa77f3afee996c7dca2509dc2d"
+    },
+    "693eecbf68bfe": {
+        "mpdUrl": "https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8",
+        "kid": "",
+        "key": ""
     }
 }
