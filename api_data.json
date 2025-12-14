@@ -2178,5 +2178,10 @@
         "mpdUrl": "https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8",
         "kid": "",
         "key": ""
+    },
+    "693f00a2b4ecc": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
