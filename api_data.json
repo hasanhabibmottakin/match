@@ -2213,5 +2213,10 @@
         "mpdUrl": "https://otte.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oxaaihfr6j/out/v1/794fe1c7b37d415db80f81555662fdb6/cenc.mpd",
         "kid": "fddaa20f9a7cc433c3eadfb54383cbb6",
         "key": "dd90ac0fb3579150952c50ca9f0b7db2"
+    },
+    "694801f47f135": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
