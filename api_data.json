@@ -2285,13 +2285,13 @@
         "key": ""
     },
     "6953e9b336107": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/xgdopntnxp/out/v1/afa12617664647ac80fa4405ffae546f/cenc-sd.mpd",
+        "kid": "fdbc1724def975fa4f30940e765be8f9",
+        "key": "ecaf6a0a04a1cb5c4bf08f61e31f92a9"
     },
     "6953e91ad40e0": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/p7relymsqc/out/v1/f6d1d92c5ea84c69ab89e4085931a225/cenc-sd.mpd",
+        "kid": "019e6dc772dcd7f1d2984f25bfa951ef",
+        "key": "dbf71e619e7902d7f62375374dc8f897"
     }
 }
