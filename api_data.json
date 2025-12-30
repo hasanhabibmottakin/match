@@ -2265,9 +2265,9 @@
         "key": ""
     },
     "6953ea6de3014": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/e5i8hl5blz/out/v1/84086708a0bc422bbd9edcab7e1ecc06/cenc.mpd",
+        "kid": "3563253b66d38d79a6ba5b70dc189152",
+        "key": "c671ae1dc2314004e7df4eaf6e729361"
     },
     "6953eacc2c8a2": {
         "mpdUrl": "#",
@@ -2280,9 +2280,9 @@
         "key": ""
     },
     "6953ea4210f3c": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/9wjpcytgcm/out/v1/52ae50567a3746a6bc81a46d53cf189a/cenc.mpd",
+        "kid": "c50cbd288cdd1462b824a85b83c6c8a1",
+        "key": "763605e4f1e14671fe730c88d77ea9b3"
     },
     "6953e9b336107": {
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/xgdopntnxp/out/v1/afa12617664647ac80fa4405ffae546f/cenc-sd.mpd",
