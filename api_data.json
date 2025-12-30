@@ -2270,14 +2270,14 @@
         "key": "c671ae1dc2314004e7df4eaf6e729361"
     },
     "6953eacc2c8a2": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rfoyhct0pt/out/v1/7379516920e24998ad2544a880e68a76/cenc.mpd",
+        "kid": "fc4382269eb966892440e6f5ba964e4d",
+        "key": "98cd93e9e2ba25a8d49f637d8ee12766"
     },
     "6953ea9ac3436": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/7yr1jt6cuc/out/v1/ea41a1e234e248daa9ebb1dce896ac26/cenc.mpd",
+        "kid": "dc69b6159a0f9f0a4e03b3ff91cbacd5",
+        "key": "d0dcbcd7723bc40df0bf34c9c092d51f"
     },
     "6953ea4210f3c": {
         "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/9wjpcytgcm/out/v1/52ae50567a3746a6bc81a46d53cf189a/cenc.mpd",
