@@ -2313,5 +2313,20 @@
         "mpdUrl": "#",
         "kid": "",
         "key": ""
+    },
+    "6959222384bec": {
+        "mpdUrl": "https://a205aivottlinear-a.akamaihd.net/IAD/lhr-nitro/live/clients/dash/enc/ktzxracky1/out/v1/c2f55047f81b40408f761259d5024757/cenc.mpd",
+        "kid": "f7c1f82a1438c7d639b7a712cf89dbfa",
+        "key": "a6cefeae25a3f8e0d99a9f1831a7ff8f"
+    },
+    "69591f4429e97": {
+        "mpdUrl": "https://a205aivottlinear-a.akamaihd.net/IAD/lhr-nitro/live/clients/dash/enc/ktzxracky1/out/v1/c2f55047f81b40408f761259d5024757/cenc.mpd",
+        "kid": "f7c1f82a1438c7d639b7a712cf89dbfa",
+        "key": "a6cefeae25a3f8e0d99a9f1831a7ff8f"
+    },
+    "69591efdf00a3": {
+        "mpdUrl": "https://a205aivottlinear-a.akamaihd.net/IAD/lhr-nitro/live/clients/dash/enc/0ixznc5win/out/v1/e6dfd3f511db4a0fb0c08b79abe311bd/cenc.mpd",
+        "kid": "e8f136f2221a0125c4a0563ecd8149ec",
+        "key": "716f9e0d2233c0a1b215e757855e08f6"
     }
 }
