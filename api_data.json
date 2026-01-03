@@ -2328,5 +2328,10 @@
         "mpdUrl": "https://a205aivottlinear-a.akamaihd.net/IAD/lhr-nitro/live/clients/dash/enc/0ixznc5win/out/v1/e6dfd3f511db4a0fb0c08b79abe311bd/cenc.mpd",
         "kid": "e8f136f2221a0125c4a0563ecd8149ec",
         "key": "716f9e0d2233c0a1b215e757855e08f6"
+    },
+    "69592c776fd07": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
