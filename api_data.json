@@ -2350,13 +2350,18 @@
         "key": ""
     },
     "695a7b3c864dc": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a205aivottlinear-a.akamaihd.net/IAD/lhr-nitro/live/clients/dash/enc/fukiywgimm/out/v1/8de692fda66a4d078392c05bf95a20d1/cenc.mpd",
+        "kid": "f90ebd574b8741e7766f2311bc1f6221",
+        "key": "833a9fa599af14c3d1ceb8ef0eb052ad"
     },
     "695a7c19405e5": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a205aivottlinear-a.akamaihd.net/IAD/lhr-nitro/live/clients/dash/enc/4toixfxct2/out/v1/52ae50567a3746a6bc81a46d53cf189a/cenc.mpd",
+        "kid": "a58337aca390e4555d24d96b39fee554",
+        "key": "75b4c63a968fb426799766072a004ee9"
+    },
+    "695a808f8e9fe": {
+        "mpdUrl": "https://a205aivottlinear-a.akamaihd.net/IAD/lhr-nitro/live/clients/dash/enc/dxqvr8bm6a/out/v1/0df2de66769541e387006728678fdf82/cenc.mpd",
+        "kid": "bf2ff814bc30f4b7a8f6668da6a770f5",
+        "key": "9ee4017cd86d5f548453b82d79fce695"
     }
 }
