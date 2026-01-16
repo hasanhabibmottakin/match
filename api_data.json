@@ -2433,5 +2433,10 @@
         "mpdUrl": "#",
         "kid": "",
         "key": ""
+    },
+    "696a7ecfb224c": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x9cn58715d/out/v1/bb4621f928e541cd85bad5dee1c77de2/cenc.mpd",
+        "kid": "2a4dc423af7ce145831d665cf4b13bdc",
+        "key": "246cbc825bfa51bf528c6a1528c984fb"
     }
 }
