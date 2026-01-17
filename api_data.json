@@ -2478,5 +2478,15 @@
         "mpdUrl": "#",
         "kid": "",
         "key": ""
+    },
+    "696bc71cab710": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD1451/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "696bc6c9aee37": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3chrd8iaiy/out/v1/4a022573b0cb4cd3ba4f75e01795400b/cenc.mpd",
+        "kid": "316bdb6ae50263a4779e1be4f6338898",
+        "key": "0b910137abcef0ec11a25b1cb97d5833"
     }
 }
