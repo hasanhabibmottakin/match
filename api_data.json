@@ -2503,5 +2503,20 @@
         "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rilfpczypd/out/v1/d269146065b44fb1ad11b9f911435ca1/cenc.mpd",
         "kid": "8435293dfbf4f1346fd4f13834f54405",
         "key": "f666f6ccdfea53f6fd03b8af3ec5167c"
+    },
+    "6974dc2f709e3": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6974dc0d65008": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6974dc483f4ff": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
