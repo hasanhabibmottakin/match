@@ -2678,5 +2678,10 @@
         "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/ixlawzryga/out/v1/323781c7303a481b9f6010636a8047fa/cenc.mpd",
         "kid": "420f6646c6a8c4f56c32018f6651b52c",
         "key": "7d19df6a4e9e9e095c51462153d096b8"
+    },
+    "697b8717b0e2d": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/73glifmgbb/out/v1/2fa618d30a284e629e7edbe22a54ee3f/cenc.mpd",
+        "kid": "3b6de01b0a92ca3ccc4b1de23bf900f6",
+        "key": "1e63d00d7360df3e4df0ac586cc0d047"
     }
 }
