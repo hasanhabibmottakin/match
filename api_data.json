@@ -2668,5 +2668,10 @@
         "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/hcou0c8in7/out/v1/708c72ab6bfe4ad6aeee862f667bdbe1/cenc.mpd",
         "kid": "13c1084c992a930cfcedad31a6e80b80",
         "key": "8736ba4c91790d0cb473be820bd87722"
+    },
+    "697b0b54e6202": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rlisfyx9vd/out/v1/61b8f61b22ac469297cbd4f1224f0ec8/cenc.mpd",
+        "kid": "f159241d40e659d58e81bc17ca30da31",
+        "key": "6b7fe24f7a16343bd447b0b30f68b7b2"
     }
 }
