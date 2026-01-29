@@ -2673,5 +2673,10 @@
         "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rlisfyx9vd/out/v1/61b8f61b22ac469297cbd4f1224f0ec8/cenc.mpd",
         "kid": "f159241d40e659d58e81bc17ca30da31",
         "key": "6b7fe24f7a16343bd447b0b30f68b7b2"
+    },
+    "697b4f526b708": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/ixlawzryga/out/v1/323781c7303a481b9f6010636a8047fa/cenc.mpd",
+        "kid": "420f6646c6a8c4f56c32018f6651b52c",
+        "key": "7d19df6a4e9e9e095c51462153d096b8"
     }
 }
