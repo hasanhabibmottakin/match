@@ -2780,9 +2780,9 @@
         "key": "d52e2fc5538f08d9482a29108f8474b6"
     },
     "697e1507f3940": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/39pdxu2c9d/out/v1/8568039930fe48c5ac249642f167e694/cenc.mpd",
+        "kid": "c1e7601b13d9674e6824ef26f578766c",
+        "key": "7c94319f024f378ea751039224f6d618"
     },
     "697e14d8e79cc": {
         "mpdUrl": "#",
@@ -2795,8 +2795,8 @@
         "key": ""
     },
     "697e14f3c8704": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/loriybwupj/out/v1/bf776668825447539220300ccce9bd77/cenc.mpd",
+        "kid": "f2bead1a52a4158a5c1a54f37ccf84e5",
+        "key": "7df878181417ca34041d0e6d89c2e95a"
     }
 }
