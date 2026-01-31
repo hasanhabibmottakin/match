@@ -2775,8 +2775,8 @@
         "key": "e6e8a4bb111c29215745b51abd582db1"
     },
     "697dd6a230d13": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/lkgf2ttbut/out/v1/995e6db3b8ae4120b5f247b8b2803005/cenc.mpd",
+        "kid": "793baf0159618d9dcce46a497c3fe8a7",
+        "key": "d52e2fc5538f08d9482a29108f8474b6"
     }
 }
