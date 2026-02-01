@@ -2818,5 +2818,10 @@
         "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/d3qp7rvrpv/out/v1/84086708a0bc422bbd9edcab7e1ecc06/cenc.mpd",
         "kid": "4085b76e7c06719f9a10f1b15a661988",
         "key": "1b6d94e7c16d9046a2383d36ecd82bd9"
+    },
+    "697f64c4d5407": {
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/lirtxtmaxq/out/v1/f3dec607001d46b7bcccd56a8c112cb7/cenc.mpd",
+        "kid": "2a517545daba4ad4b6805de9a68a0847",
+        "key": "98da954fc17962b42911a88a6d5e4e7a"
     }
 }
