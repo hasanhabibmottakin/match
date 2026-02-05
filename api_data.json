@@ -2848,5 +2848,10 @@
         "mpdUrl": "https://moblive.yuppcdn.net/drm1/smil:starsportsselect1drm.smil/manifest.mpd",
         "kid": "9872e439f21f4a299cab249c6554daa3",
         "key": "0cdfcfe0d0f1fbe100554ce3ef4c4665"
+    },
+    "69849fe40c8f9": {
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/dash/enc/gmgcjjmmtb/out/v1/b02b49b7e4244b4ebaf4f2d576a97228/cenc.mpd",
+        "kid": "da661ad935054591590c7487368b26f3",
+        "key": "10229bfa52d2e601b3e88b7951dc0bae"
     }
 }
