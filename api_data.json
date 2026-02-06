@@ -2853,5 +2853,55 @@
         "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/en0n19qhy7/out/v1/ca5588fbf46b4923bc52c6d26b2c9127/cenc.mpd",
         "kid": "2fe62a133fcc92df10a6f9a88cd76069",
         "key": "13402b7c1efebae33e37aa97adf30236"
+    },
+    "69862d626f76d": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2092/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862c7fee633": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2085/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862caba8d68": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2089/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862c565fd61": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2086/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862cecd3a87": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2090/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862bbd3308b": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2084/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862d50986b9": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2091/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862c0f52d65": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2085/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862c6c20d38": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2087/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69862c9b5baf4": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2088/index.mpd",
+        "kid": "",
+        "key": ""
     }
 }
