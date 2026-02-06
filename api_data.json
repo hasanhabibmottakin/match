@@ -2840,9 +2840,9 @@
         "key": "191612c09d4413cfa0c913bfd8a700ec"
     },
     "69834da4ab053": {
-        "mpdUrl": "https://abkf7g7aaaaaaaamcmmhhhyli5fwh.otte.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wvylr4q2ne/out/v1/eb85f5cd635b45ccb7e12a5b30eedbca/cenc.mpd",
-        "kid": "159dd69da817d0d0ac8fda7e438cd60c",
-        "key": "40d9fba7aebb69953b20bf7af83c29bd"
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kbndcj80tn/out/v1/31fc126027704d56bd0e09134a19085a/cenc.mpd",
+        "kid": "3d7a73de8c41b3ba9125a6544e5f89bf",
+        "key": "8f93b0a810e89801ef8fa1fbb4cd59d2"
     },
     "69834ce8d4b63": {
         "mpdUrl": "https://moblive.yuppcdn.net/drm1/smil:starsportsselect1drm.smil/manifest.mpd",
@@ -2850,8 +2850,8 @@
         "key": "0cdfcfe0d0f1fbe100554ce3ef4c4665"
     },
     "69849fe40c8f9": {
-        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/dash/enc/gmgcjjmmtb/out/v1/b02b49b7e4244b4ebaf4f2d576a97228/cenc.mpd",
-        "kid": "da661ad935054591590c7487368b26f3",
-        "key": "10229bfa52d2e601b3e88b7951dc0bae"
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/en0n19qhy7/out/v1/ca5588fbf46b4923bc52c6d26b2c9127/cenc.mpd",
+        "kid": "2fe62a133fcc92df10a6f9a88cd76069",
+        "key": "13402b7c1efebae33e37aa97adf30236"
     }
 }
