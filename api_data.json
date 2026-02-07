@@ -2908,5 +2908,10 @@
         "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/hl357m4nu3/out/v1/1b3f44d701684a27baedac188302ec54/cenc.mpd",
         "kid": "2fb5f5b56d6dbae921b0ddb8d4b3d5ba",
         "key": "06111b11c7900395ac57c35c67d45685"
+    },
+    "698706a071387": {
+        "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
+        "kid": "cd2266bd1085a92143007be26296daeb",
+        "key": "1a21a3cbb8e8062c3a82135a47389c2b"
     }
 }
