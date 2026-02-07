@@ -2915,9 +2915,9 @@
         "key": "1a21a3cbb8e8062c3a82135a47389c2b"
     },
     "69873720eaad0": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/sfkvp0ynra/out/v1/971827243ceb4a269a665af1d7882239/cenc.mpd",
+        "kid": "838b8558c8646b24d72f3dbb404849f1",
+        "key": "1a8c7acb4e5798b83278549e438acd4a"
     },
     "69873787e42fe": {
         "mpdUrl": "#",
@@ -2925,24 +2925,24 @@
         "key": ""
     },
     "698736428c5a2": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/kvvmbwa4a8/out/v1/8568039930fe48c5ac249642f167e694/cenc.mpd",
+        "kid": "d8044ae85244d1959eac426867786b7f",
+        "key": "8d58d4fe36400b2a62039c510a07022c"
     },
     "698736ab2014d": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/ezzv9kg1ly/out/v1/bf776668825447539220300ccce9bd77/cenc.mpd",
+        "kid": "b27e461e43c7284c4222d9c0e9e4ae5a",
+        "key": "c77f44da42895ee6288aaf15e5e660c6"
     },
     "698736815cbd1": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/dxklw1lfxs/out/v1/9c5b485580a0489d8d4b0e16e618f01f/cenc.mpd",
+        "kid": "c2e7220d6b2cd357668c61729250c3b3",
+        "key": "f253d6cdfa1fcceb048df0d9a97a8ab7"
     },
     "698736ee49e14": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wndvwmdpew/out/v1/37d0ef7a02274112b4de65fdaf85ca96/cenc.mpd",
+        "kid": "222fd4f714a4c6cc553e0a9ccdb9e75f",
+        "key": "d1f45dfa39a3a1d1ffb57e17453d43ea"
     },
     "698741c22d80b": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/fclywfntvr/out/v1/e21d21ec21e34c7192049a44ee3de428/cenc.mpd",
