@@ -2953,5 +2953,15 @@
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
         "kid": "cd2266bd1085a92143007be26296daeb",
         "key": "1a21a3cbb8e8062c3a82135a47389c2b"
+    },
+    "69888bea5e6d5": {
+        "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
+        "kid": "4b267c2f298905e8ab9cd3537588731b",
+        "key": "55ceb56d0a086695af9f3a9779f9e6d3"
+    },
+    "69888ec736d45": {
+        "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
+        "kid": "4b267c2f298905e8ab9cd3537588731b",
+        "key": "55ceb56d0a086695af9f3a9779f9e6d3"
     }
 }
