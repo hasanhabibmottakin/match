@@ -2963,5 +2963,10 @@
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
         "kid": "4b267c2f298905e8ab9cd3537588731b",
         "key": "55ceb56d0a086695af9f3a9779f9e6d3"
+    },
+    "698898d0b675c": {
+        "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/eurlmzydrt/out/v1/e9d5f5aa8b3440b3ad00b08b23d37939/cenc.mpd",
+        "kid": "8328165c6607fb06326a07e5c5d00263",
+        "key": "238c0c32b049a87150af82b3c0fd1991"
     }
 }
