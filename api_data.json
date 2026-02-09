@@ -2983,5 +2983,10 @@
         "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/vfx2wfazqm/out/v1/570265585156479089caac0298c3bf10/cenc.mpd",
         "kid": "7cef69f674661955da64c21722cfafac",
         "key": "d03b167937403fab7e47272e491d491e"
+    },
+    "69899d801ec1a": {
+        "mpdUrl": "https://mh-bks400-08.starhubgo.com/bpk-token/1ac@pc4zxdfmyh5oubeut3bg32tphstqp43ipaheuwaa/bpk-tv/HubSports4HDnew/output/manifest.mpd?",
+        "kid": "9a29d4f3b6e540b3aa2f36927c01b6f4",
+        "key": "57b670b45b5cb453a9f48fa975b702c1"
     }
 }
