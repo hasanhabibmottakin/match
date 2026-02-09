@@ -2905,9 +2905,9 @@
         "key": ""
     },
     "6986ce509dafa": {
-        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/376jpidmmb/out/v1/2f32e2710ef44a91982adcf2f7d858eb/cenc.mpd",
-        "kid": "13fd592a875d595e2afc150d453f2315",
-        "key": "7f9389f4cc1e80a783b469884474e4c4"
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/ftqfeg5f89/out/v1/3771625e862144a7a93ce483498dd025/cenc.mpd",
+        "kid": "8f388216a3fe3b9d4b7f2662904bf64e",
+        "key": "4ffab0f01f4c7bd316c47df29615cfe8"
     },
     "698706a071387": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
@@ -2950,9 +2950,9 @@
         "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69881d7f4fef3": {
-        "mpdUrl": "https://ottb.live.cf.ww.aiv-cdn.net/sin-nitro/live/dash/enc/dn7vupw4sj/out/v1/d7130f460d41486ea7e8e3eb45f0522f/cenc.mpd",
-        "kid": "d0df0607d2c9f7f175a1b68b2dd74af9",
-        "key": "3b9bceeb5dd81d6e906217d27f831cee"
+        "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/ksczi4sz0e/out/v1/a3f76c40f2c74804876697c4c284780f/cenc.mpd",
+        "kid": "02b6e65ff2e3c3cf55a52426e03161dc",
+        "key": "8cd7fa1463f0e7624725e89389d181e6"
     },
     "69888bea5e6d5": {
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
