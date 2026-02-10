@@ -2993,5 +2993,20 @@
         "mpdUrl": "https://dice-live-oc.akamaized.net/hdntl=exp=1770729317~acl=%2f*~id=a71d621e-2dca-463f-88c1-68fd0e106288~data=hdntl,dWlkPTk2NDM3fGRjZS5za3lueiZpcD0xMDMuMjkuMzAuMzkmZXhwPTE3NzA3MjkzNDYmZWl",
         "kid": "4d346b1d1ae64d4a800409cffa14983e",
         "key": "208c972bd2da4359ac94e6944fe378b6"
+    },
+    "698b7c31d148d": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "698b7b8dcf154": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "698b7c64a0caf": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
