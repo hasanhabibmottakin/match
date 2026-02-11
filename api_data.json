@@ -3018,5 +3018,10 @@
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/sws9igfugi/out/v1/eb6521cb67714544b56d43ff46214e0b/cenc.mpd",
         "kid": "ab4ea793c67191eda7a87fde75b1750b",
         "key": "44b16cd4da5ec3f8d296dd31a276195e"
+    },
+    "698c49f80c788": {
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/wohxowvaty/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
+        "kid": "cd2266bd1085a92143007be26296daeb",
+        "key": "1a21a3cbb8e8062c3a82135a47389c2b"
     }
 }
