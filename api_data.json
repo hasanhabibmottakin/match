@@ -3020,9 +3020,9 @@
         "key": "44b16cd4da5ec3f8d296dd31a276195e"
     },
     "698c49f80c788": {
-        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/wohxowvaty/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
-        "kid": "cd2266bd1085a92143007be26296daeb",
-        "key": "1a21a3cbb8e8062c3a82135a47389c2b"
+        "mpdUrl": "https://a120live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/0q80caubnh/out/v1/d61c7af3122d4cffb059904a26835baa/cenc.mpd",
+        "kid": "2904b17cb64c996dbc254981b7602863",
+        "key": "66a7ef671b84498e64f94e8401fe8cb9"
     },
     "698cbbc71221e": {
         "mpdUrl": "#",
