@@ -2950,9 +2950,9 @@
         "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69881d7f4fef3": {
-        "mpdUrl": "https://a120live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/83taeafait/out/v1/8f460e2902ee422e9ee8229e6de25719/cenc.mpd",
-        "kid": "ed76c18710d621a87c89dedc7c13019f",
-        "key": "7241c82fe48525a9dc6be6d7bb86611f"
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/irzmr34ebk/out/v1/6cd7efb72fd04edcaaef15c290c6fa9d/cenc.mpd",
+        "kid": "0e87c8731b86d92c957d8bb216cc70a3",
+        "key": "e0f098f4c2c54be0911a12b96b469b82"
     },
     "69888bea5e6d5": {
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
