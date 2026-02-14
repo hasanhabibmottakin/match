@@ -3100,14 +3100,14 @@
         "key": "5a5ceb239946b180f1e1daf5809a9c2f"
     },
     "69907b8b516e1": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vjlw9ncpih/out/v1/ec5ad80302854a9e868d882c87c6199a/cenc.mpd",
+        "kid": "7efb54ac2f53db68826173c10a8c31aa",
+        "key": "13cda5ca72ef8094298447bf97708755"
     },
     "69907b7a2cfdd": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/61e7qocrjb/out/v1/6b8cc642d4a74634b55687912feb1be0/cenc.mpd",
+        "kid": "94150c6f44a75a20dadec51b23b93bd3",
+        "key": "97fc6221ad9cb615fc2914c20ce84ffa"
     },
     "69907b9278d9d": {
         "mpdUrl": "#",
