@@ -3140,9 +3140,9 @@
         "key": ""
     },
     "69908313dd4f7": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/npbslnhxvj/out/v1/d8eb95ce97294cd6962a1699bd108ce1/cenc.mpd",
+        "kid": "0853db0290ce7512764007f80e89a375",
+        "key": "f948f699b9fbed00ed1cf64af47d2392"
     },
     "69907b980c7ac": {
         "mpdUrl": "#",
