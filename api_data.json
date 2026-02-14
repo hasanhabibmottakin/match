@@ -3085,9 +3085,9 @@
         "key": "c4dce184eaf14c3961db7bcb4bc9f259"
     },
     "69907b7174cee": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/mmb0ttshcf/out/v1/f9464a968af045eb9eb5f88f902ce607/cenc.mpd",
+        "kid": "87eaa4fffdc03c8edddcc4c30263a2cf",
+        "key": "b3d0b899f5412dd6ba8d9b678de0c6aa"
     },
     "69907b85c4170": {
         "mpdUrl": "#",
@@ -3135,6 +3135,16 @@
         "key": ""
     },
     "699079232af41": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "69908313dd4f7": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "69907b980c7ac": {
         "mpdUrl": "#",
         "kid": "",
         "key": ""
