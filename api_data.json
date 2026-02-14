@@ -2905,9 +2905,9 @@
         "key": ""
     },
     "6986ce509dafa": {
-        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/clients/dash/enc/snqyhcqdpe/out/v1/e49fbc6aedef49e5b54d85df6209ece1/cenc.mpd",
-        "kid": "6d7bcc6b7b15d1e6ee791c514eb4f4fd",
-        "key": "6bdf626ba64f5d64e1c0ce027feae41b"
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/prahkjmtlv/out/v1/94cbbaf6dfdd4b3eb37bb07708795976/cenc.mpd",
+        "kid": "5fd41a4c5e076f3e643ca6a935de35b4",
+        "key": "52dae8422ee763268e8984792fbc2eac"
     },
     "698706a071387": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
@@ -2950,9 +2950,9 @@
         "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69881d7f4fef3": {
-        "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/ct8pml1x7b/out/v1/a3f76c40f2c74804876697c4c284780f/cenc.mpd",
-        "kid": "2904b17cb64c996dbc254981b7602863",
-        "key": "66a7ef671b84498e64f94e8401fe8cb9"
+        "mpdUrl": "https://a109aivottepl-a.akamaihd.net/syd-nitro/live/clients/dash/enc/bynuls0umq/out/v1/8f460e2902ee422e9ee8229e6de25719/cenc.mpd",
+        "kid": "ed76c18710d621a87c89dedc7c13019f",
+        "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69888bea5e6d5": {
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
@@ -3063,5 +3063,80 @@
         "mpdUrl": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
         "kid": "3501bd323a6a35c28eb7654bf298b9aa",
         "key": "2db4c8089d627e1b2c480c57baa86a7b"
+    },
+    "699077aa4f585": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "699077a0c8efa": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "69907b7fa647c": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "69906e1008722": {
+        "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/r8wunopaie/out/v1/57cff303ca8742a7aa7d55fa06b810ba/cenc.mpd",
+        "kid": "813973a69e274391a28947ec345de101",
+        "key": "c4dce184eaf14c3961db7bcb4bc9f259"
+    },
+    "69907b7174cee": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "69907b85c4170": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6990792a55b5f": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "69907b8b516e1": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "69907b7a2cfdd": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "69907b9278d9d": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6990779a5bcd2": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6990793083c4e": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "699077b224749": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6990779335240": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "699079232af41": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
