@@ -3065,14 +3065,14 @@
         "key": "2db4c8089d627e1b2c480c57baa86a7b"
     },
     "699077aa4f585": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/i78cihqkj3/out/v1/01ec3d91690f4b948a398f33dbbf06a6/cenc.mpd",
+        "kid": "dc19342aee20bcdb5ab182761787831f",
+        "key": "7b6ca294b566fc82aa5e3da1941bc82b"
     },
     "699077a0c8efa": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/viwauwwpqr/out/v1/63855b6fe0de40bea9560cabf1aba498/cenc.mpd",
+        "kid": "50b1e7f19a4c4797d178246ac49cac8f",
+        "key": "82ea8892820de1e1d9dab05e6d4783d4"
     },
     "69907b7fa647c": {
         "mpdUrl": "#",
@@ -3095,9 +3095,9 @@
         "key": ""
     },
     "6990792a55b5f": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/pfdjbglcxd/out/v1/5ad49e7b4f0f49feb538c883133c17cd/cenc.mpd",
+        "kid": "44193eceb7065c5c618e33b033abb3d6",
+        "key": "5a5ceb239946b180f1e1daf5809a9c2f"
     },
     "69907b8b516e1": {
         "mpdUrl": "#",
@@ -3125,9 +3125,9 @@
         "key": ""
     },
     "699077b224749": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/toe5y1jogd/out/v1/063ddbe0d6244d28ac9ff5999543c146/cenc.mpd",
+        "kid": "4e743c87d41b46c90f142ee2c2a250e9",
+        "key": "ae2b682354af841b59729721c03c487a"
     },
     "6990779335240": {
         "mpdUrl": "#",
