@@ -3148,5 +3148,10 @@
         "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/6vhb7ttizf/out/v1/e55282bf9caa4f6b8cd03b6f4b7706c3/cenc.mpd",
         "kid": "dd62e69a2c90f7d8f7bced3c1a384b7d",
         "key": "4f94a613ec15f976c458bcf1b4ac75f2"
+    },
+    "6990b79b305f5": {
+        "mpdUrl": "https://ABA3UZVAAAAAAAAMKB4SLZCLMVKHR.ta.bia-cf.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/torsoqgi9p/out/v1/75700a1336e644c8b6c8dc0996ab9fa3/cenc.mpd",
+        "kid": "af34073fef9bd7767f6b595630ee15fa",
+        "key": "098f3fe90241ffe93cd77fb356ac13b2"
     }
 }
