@@ -3208,5 +3208,20 @@
         "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/bom-nitro/live/clients/dash/enc/w2qekixfc2/out/v1/a58dbea79180453eaf8446d282509928/cenc.mpd",
         "kid": "69687467dfd05ba3c9026fa243517bfc",
         "key": "efdd1d5044d53831eecf1ff8fef51b93"
+    },
+    "6994c1923cc94": {
+        "mpdUrl": "https://ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/dsplmpm3p2/out/v1/7bfeba2ef904488eb34384236bcde6a7/cenc.mpd",
+        "kid": "ff909a8f8a880d42d3f1ed79c4680c0d",
+        "key": "84a57341726c1c75d22a77248586d622"
+    },
+    "6994bfb94c4fd": {
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/bom-nitro/live/clients/dash/enc/jfkqetdrb4/out/v1/051deb0c4b7a4ceb8bebd32919d20416/cenc.mpd",
+        "kid": "be71d7b093757efc7834adb222339f28",
+        "key": "bb834cb20047eb9158a931f0e7c7020d"
+    },
+    "6994c1fe8ba15": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
