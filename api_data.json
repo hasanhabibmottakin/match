@@ -3203,5 +3203,10 @@
         "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/dqv1j9dmn9/out/v1/bf9c6212824a4e488b9402821bfd7943/cenc.mpd",
         "kid": "d80d51f6b0f93aacd3519821bc840062",
         "key": "27c782e0be44ab3bf307340e2e73a5f6"
+    },
+    "6994a767e0019": {
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/bom-nitro/live/clients/dash/enc/w2qekixfc2/out/v1/a58dbea79180453eaf8446d282509928/cenc.mpd",
+        "kid": "69687467dfd05ba3c9026fa243517bfc",
+        "key": "efdd1d5044d53831eecf1ff8fef51b93"
     }
 }
