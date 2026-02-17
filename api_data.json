@@ -3223,5 +3223,15 @@
         "mpdUrl": "#",
         "kid": "",
         "key": ""
+    },
+    "6994c61f8908f": {
+        "mpdUrl": "https://ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/zilohomt3q/out/v1/9b58141e35c0492b90b0041da4a89020/cenc.mpd",
+        "kid": "ea32ba1890241e67ba644703b6873b36",
+        "key": "28d424ae6714a5c5df5d13f351ffac70"
+    },
+    "6994c5694fb31": {
+        "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/bom-nitro/live/clients/dash/enc/fhfbqhpmks/out/v1/e1d0ee60af224e6082595b3246592424/cenc.mpd",
+        "kid": "ed14e62410abc6aa7673e69a25cdbe24",
+        "key": "bd1e225957fdb5ba4d54572f08e2095f"
     }
 }
