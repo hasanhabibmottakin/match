@@ -2905,9 +2905,9 @@
         "key": ""
     },
     "6986ce509dafa": {
-        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/kggmnvnasm/out/v1/8a3849a742ed42f9860f9dbe3a76e9f8/cenc.mpd",
-        "kid": "308adb96333494c67d20858b75abca47",
-        "key": "66d5d42839afb22c8faec2fe357eedcf"
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/fwweawin5z/out/v1/93b97638487c4ab0a8447931965a176e/cenc.mpd",
+        "kid": "c5057fc380c2acc499590d59ad8155a3",
+        "key": "28985f8ab94e1f6ea20f6299cfe99a7f"
     },
     "698706a071387": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
@@ -2950,9 +2950,9 @@
         "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69881d7f4fef3": {
-        "mpdUrl": "https://ta.bia-cf.live.pv-cdn.net/bom-nitro/live/dash/enc/dznewfsjjw/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
-        "kid": "2904b17cb64c996dbc254981b7602863",
-        "key": "66a7ef671b84498e64f94e8401fe8cb9"
+        "mpdUrl": "https://abdiqdlaaaaaaaamd3yw4nq5noo2t.ta.bia-cf.live.pv-cdn.net/syd-nitro/live/clients/dash/enc/hw7wthhsys/out/v1/51e65f7749fe4cc78f6c108fa09ff29c/cenc.mpd",
+        "kid": "ed76c18710d621a87c89dedc7c13019f",
+        "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69888bea5e6d5": {
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
@@ -3020,9 +3020,9 @@
         "key": "44b16cd4da5ec3f8d296dd31a276195e"
     },
     "698c49f80c788": {
-        "mpdUrl": "https://a120live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/0q80caubnh/out/v1/d61c7af3122d4cffb059904a26835baa/cenc.mpd",
-        "kid": "2904b17cb64c996dbc254981b7602863",
-        "key": "66a7ef671b84498e64f94e8401fe8cb9"
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/dash/enc/hw7wthhsys/out/v1/51e65f7749fe4cc78f6c108fa09ff29c/cenc.mpd",
+        "kid": "ed76c18710d621a87c89dedc7c13019f",
+        "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "698cbbc71221e": {
         "mpdUrl": "#",
