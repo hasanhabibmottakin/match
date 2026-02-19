@@ -2905,9 +2905,9 @@
         "key": ""
     },
     "6986ce509dafa": {
-        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/wt1pltyb9z/out/v1/3542ef35fd004ae2b7c718829175e868/cenc.mpd",
-        "kid": "e9fd517a44b10834f914c2dd3ddd07f0",
-        "key": "cc5e6232a1a5ef63be1618828e1b2ef7"
+        "mpdUrl": "https://ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/t2buh3bwfz/out/v1/a11bc1e80b914e3da78bada1810e9088/cenc.mpd",
+        "kid": "96b9f1bddc286bf383458bae508674c1",
+        "key": "4a0666f8b8c2f1edc8c6155629d3df97"
     },
     "698706a071387": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
