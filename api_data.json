@@ -2905,9 +2905,9 @@
         "key": ""
     },
     "6986ce509dafa": {
-        "mpdUrl": "https://ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/t2buh3bwfz/out/v1/a11bc1e80b914e3da78bada1810e9088/cenc.mpd",
-        "kid": "96b9f1bddc286bf383458bae508674c1",
-        "key": "4a0666f8b8c2f1edc8c6155629d3df97"
+        "mpdUrl": "https://ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/rbe2afvxhk/out/v1/ad30e0feef774b1cbc9599dc976990c6/cenc.mpd",
+        "kid": "5378d567ce79c72673bc2e3dcd7f858b",
+        "key": "123d71da5dcc9d9db5cf193a80e63344"
     },
     "698706a071387": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
@@ -2950,9 +2950,9 @@
         "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69881d7f4fef3": {
-        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/dash/enc/108rikwly7/out/v1/8777014e61534e7c873dc695bc485397/cenc.mpd",
-        "kid": "2904b17cb64c996dbc254981b7602863",
-        "key": "66a7ef671b84498e64f94e8401fe8cb9"
+        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/dash/enc/ekz5z2vwbe/out/v1/e21d21ec21e34c7192049a44ee3de428/cenc.mpd",
+        "kid": "ed76c18710d621a87c89dedc7c13019f",
+        "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69888bea5e6d5": {
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
