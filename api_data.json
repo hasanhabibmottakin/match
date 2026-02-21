@@ -3333,5 +3333,40 @@
         "mpdUrl": "https://bbb.exoadash.com/TVD1451/index.mpd",
         "kid": "",
         "key": ""
+    },
+    "699a25290b12d": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/vubjz6ugtr/out/v1/c73fe8e44d474b0b97f7e338d4481d3d/cenc.mpd",
+        "kid": "53b636487b8659482eed01275e46fe30",
+        "key": "a60f279ef52f09d56036e62713877819"
+    },
+    "699a2562cf5f1": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/vubjz6ugtr/out/v1/c73fe8e44d474b0b97f7e338d4481d3d/cenc.mpd",
+        "kid": "53b636487b8659482eed01275e46fe30",
+        "key": "a60f279ef52f09d56036e62713877819"
+    },
+    "699a25e02bbe0": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/bcmzctakrm/out/v1/bac2ab944dfa4706a89ca2a7f9ea5265/cenc.mpd",
+        "kid": "20ea43518ff93f06eb9b09a084340366",
+        "key": "194bb66e1acd3c9881b5c2be246e3eac"
+    },
+    "699a25aa6fe1b": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/bcmzctakrm/out/v1/bac2ab944dfa4706a89ca2a7f9ea5265/cenc.mpd",
+        "kid": "20ea43518ff93f06eb9b09a084340366",
+        "key": "194bb66e1acd3c9881b5c2be246e3eac"
+    },
+    "699a25f4b8961": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/85oslm0gq7/out/v1/ea41a1e234e248daa9ebb1dce896ac26/cenc.mpd",
+        "kid": "dc69b6159a0f9f0a4e03b3ff91cbacd5",
+        "key": "d0dcbcd7723bc40df0bf34c9c092d51f"
+    },
+    "699a256fcf694": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/ujodlicl8u/out/v1/54ee9b65f531435f973c6c3f8e224b08/cenc.mpd",
+        "kid": "649b5487b83e82d570575c79dd866935",
+        "key": "4152dcc1309dd9ce6b5d57b7b68fee25"
+    },
+    "699a259e0b728": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/ujodlicl8u/out/v1/54ee9b65f531435f973c6c3f8e224b08/cenc.mpd",
+        "kid": "649b5487b83e82d570575c79dd866935",
+        "key": "4152dcc1309dd9ce6b5d57b7b68fee25"
     }
 }
