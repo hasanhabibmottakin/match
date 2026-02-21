@@ -3318,5 +3318,20 @@
         "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/pzftx7cfuv/out/v1/84086708a0bc422bbd9edcab7e1ecc06/cenc.mpd",
         "kid": "917157d3895fb44f9d10377a5003154a",
         "key": "a24dece54ae0cd4b1322ff7ebc6182bc"
+    },
+    "6999f0d9cc017": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD6737/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "6999f0bd7ebfb": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD1403/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "6999f09fb5427": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD1451/index.mpd",
+        "kid": "",
+        "key": ""
     }
 }
