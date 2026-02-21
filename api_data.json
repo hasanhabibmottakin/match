@@ -3233,5 +3233,15 @@
         "mpdUrl": "https://a122aivottlinear-a.akamaihd.net/OTTB/bom-nitro/live/clients/dash/enc/fhfbqhpmks/out/v1/e1d0ee60af224e6082595b3246592424/cenc.mpd",
         "kid": "ed14e62410abc6aa7673e69a25cdbe24",
         "key": "bd1e225957fdb5ba4d54572f08e2095f"
+    },
+    "6999ac35b3b9f": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/htpcnggk5w/out/v1/e27feb146dd94cbdb5083735206a4813/cenc.mpd",
+        "kid": "b8562fd179656674e05b1ed3d8715dbb",
+        "key": "8b111fc6c72c426d74453b622277e5ec"
+    },
+    "6999b1077902d": {
+        "mpdUrl": "https://ml-pull-rtmp-pk1.myco.io/Clean2/dash/index.mpd",
+        "kid": "29256eae859c52928db4c3fc77b01588",
+        "key": "0371f71ce2e897e893a9532e540fbc0f"
     }
 }
