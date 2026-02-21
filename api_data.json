@@ -3243,5 +3243,50 @@
         "mpdUrl": "https://ml-pull-rtmp-pk1.myco.io/Clean2/dash/index.mpd",
         "kid": "29256eae859c52928db4c3fc77b01588",
         "key": "0371f71ce2e897e893a9532e540fbc0f"
+    },
+    "6999bfed0932c": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/npqs4hkruf/out/v1/1c3ca365592748aa8003fd2823fc6b8b/cenc.mpd",
+        "kid": "d2fe9506154c5b1fd7eac66262143bbb",
+        "key": "c9d04da5af628c5dbd23c47a35fe5e9a"
+    },
+    "6999c03b1149a": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6999c4f5426e5": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6999c046547d0": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/lbvivzlesd/out/v1/5dd7eaa4cc54494390dafaa82447f80e/cenc.mpd",
+        "kid": "79e029bce045fb1f83e76b9089166984",
+        "key": "c1d306883aaf332d91d6addba2e9d391"
+    },
+    "6999c02d9bb5d": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6999c2cc23fb7": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6999c542bf1c4": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "6999c01de9d85": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/syrriqhmiy/out/v1/ca590ba4a049448bb1b665042cc0bbe0/cenc.mpd",
+        "kid": "ccb4517cd369b970a94b4f5c52c64fc7",
+        "key": "685702bab29b4f91c95b18d79daf56a1"
+    },
+    "6999c537b90fd": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
