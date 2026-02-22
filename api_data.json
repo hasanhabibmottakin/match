@@ -3385,9 +3385,9 @@
         "key": ""
     },
     "699afef6d7b77": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/u8sdajxnfp/out/v1/ea41a1e234e248daa9ebb1dce896ac26/cenc.mpd",
+        "kid": "dc69b6159a0f9f0a4e03b3ff91cbacd5",
+        "key": "d0dcbcd7723bc40df0bf34c9c092d51f"
     },
     "699b006128c5e": {
         "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rxhxc14ikz/out/v1/bb976c39247941f3b4c9fa0a0735426d/cenc.mpd",
@@ -3398,5 +3398,10 @@
         "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/mnqrbpetbp/out/v1/13ae04ebeb824856ba2f42be17628ddb/cenc.mpd",
         "kid": "a0ec3ea5911909343c0273645b818ec7",
         "key": "de4e0ecd6374cafcfc9548dfc4ac9d57"
+    },
+    "699b1ef67504e": {
+        "mpdUrl": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/kbrxppawf0/out/v1/f758abd5ec4643c9a6f66a607709d33c/cenc.mpd",
+        "kid": "00a7aee91d5f9697e384c5a857ba5ed0",
+        "key": "a82bec7f43e10af436ea4d0c55edee1b"
     }
 }
