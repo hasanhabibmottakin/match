@@ -3403,5 +3403,15 @@
         "mpdUrl": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/kbrxppawf0/out/v1/f758abd5ec4643c9a6f66a607709d33c/cenc.mpd",
         "kid": "00a7aee91d5f9697e384c5a857ba5ed0",
         "key": "a82bec7f43e10af436ea4d0c55edee1b"
+    },
+    "699b3531a7d27": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/cy40ve5pb5/out/v1/8280316d9d464176a3a587bca90a754a/cenc.mpd",
+        "kid": "bdd8abd380f90c8ec7654c160e0ff970",
+        "key": "9c93668d052e037cc72496a7ae83dc39"
+    },
+    "699b310c844a3": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/j9tcu1g9sp/out/v1/ede0304f4c0b4fdaaf3f666ba0f234f3/cenc.mpd",
+        "kid": "6bba6f76929c772e555acfee3ec57368",
+        "key": "926e87f61aa1c219b8d35ee96e1b48dd"
     }
 }
