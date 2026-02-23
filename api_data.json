@@ -2905,9 +2905,9 @@
         "key": ""
     },
     "6986ce509dafa": {
-        "mpdUrl": "https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jpegrjoauf/out/v1/62400cae94824b448b912ba4098629e2/cenc.mpd",
-        "kid": "85142b81ffcddfc61d6e65d882e43daf",
-        "key": "1c3e99b6b32b6dd3c06d48bfabf8ef97"
+        "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/vghnthd5a3/out/v1/ad28e7d655014204843fcde399045299/cenc.mpd",
+        "kid": "596a430a5ed4dda9e6e312637ea4ccc1",
+        "key": "20cf10525dcc0cb9b373cc8749e3fc78"
     },
     "698706a071387": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
@@ -2950,9 +2950,9 @@
         "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69881d7f4fef3": {
-        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/pdx-nitro/live/dash/enc/xanygn4vv8/out/v1/8777014e61534e7c873dc695bc485397/cenc.mpd",
-        "kid": "2904b17cb64c996dbc254981b7602863",
-        "key": "66a7ef671b84498e64f94e8401fe8cb9"
+        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/wwrmho82pc/out/v1/d7130f460d41486ea7e8e3eb45f0522f/cenc.mpd",
+        "kid": "baafdb8ebcbbc0655332291da6f121da",
+        "key": "60ac892e0ea0b2c46fc6837c97ed641a"
     },
     "69888bea5e6d5": {
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
@@ -3413,5 +3413,10 @@
         "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/j9tcu1g9sp/out/v1/ede0304f4c0b4fdaaf3f666ba0f234f3/cenc.mpd",
         "kid": "6bba6f76929c772e555acfee3ec57368",
         "key": "926e87f61aa1c219b8d35ee96e1b48dd"
+    },
+    "699c4fb97d722": {
+        "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/cy40ve5pb5/out/v1/8280316d9d464176a3a587bca90a754a/cenc.mpd",
+        "kid": "bdd8abd380f90c8ec7654c160e0ff970",
+        "key": "9c93668d052e037cc72496a7ae83dc39"
     }
 }
