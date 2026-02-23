@@ -3418,5 +3418,10 @@
         "mpdUrl": "https://a166aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/cy40ve5pb5/out/v1/8280316d9d464176a3a587bca90a754a/cenc.mpd",
         "kid": "bdd8abd380f90c8ec7654c160e0ff970",
         "key": "9c93668d052e037cc72496a7ae83dc39"
+    },
+    "699c8bdf7baff": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
     }
 }
