@@ -170,7 +170,7 @@
         "key": "67bdaf1e2175b9ff682fcdf0e2354b1e"
     },
     "682adc5bb3d75": {
-        "mpdUrl": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
         "kid": "294b5761cefc22d0c6312939e13d8278",
         "key": "52148f1042d238849f0a7813f1da8a7b"
     },
@@ -685,7 +685,7 @@
         "key": "95e80a90d55783a192c2a0c5e85fcd70"
     },
     "682adcaf6df79": {
-        "mpdUrl": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/dash/enc/5sxuux529k/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
+        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/5sxuux529k/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
         "kid": "1d96ab366bbe6451edf7407b58e2fa16",
         "key": "0116201f4a63ac5bf5787d2c610c41a7"
     },
@@ -920,7 +920,7 @@
         "key": "87d993257a099324ccd0215475fc61a0"
     },
     "682adbdb66bf7": {
-        "mpdUrl": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
+        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
         "kid": "f288380ca4cef9ad3f27a92a08e9bb8b",
         "key": "9f18d26291d9230833501f7f822f6875"
     },
@@ -985,7 +985,7 @@
         "key": "27d76f993b4f6c23e45b954d455074b8"
     },
     "682add16024df": {
-        "mpdUrl": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
         "kid": "192b1115da041585c77200128549efa1",
         "key": "634e10efe4abbb14be400a3ccbac0258"
     },
@@ -3420,6 +3420,21 @@
         "key": "9c93668d052e037cc72496a7ae83dc39"
     },
     "699c8bdf7baff": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "699f4a4986c69": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "699f4a67b0703": {
+        "mpdUrl": "#",
+        "kid": "",
+        "key": ""
+    },
+    "699f4a5a31133": {
         "mpdUrl": "#",
         "kid": "",
         "key": ""
