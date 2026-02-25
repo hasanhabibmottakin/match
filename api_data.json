@@ -3425,18 +3425,18 @@
         "key": ""
     },
     "699f4a4986c69": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/spbbd6tztz/out/v1/8e4dbe981d574983a5a0c96b874cc5b9/cenc.mpd",
+        "kid": "26a61860ec370b099baff034bbb7ae82",
+        "key": "6dfa730bcca7baa220d9525bf49439fa"
     },
     "699f4a67b0703": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/r5y8extnum/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
+        "kid": "ab43088dceee340be7c933525c974191",
+        "key": "e0822adf56dc6e47a189f7c2144e1b86"
     },
     "699f4a5a31133": {
-        "mpdUrl": "#",
-        "kid": "",
-        "key": ""
+        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/dash/enc/dv6u4wyiie/out/v1/b3588cbd51284a0bae4bf28e325925b8/cenc.mpd",
+        "kid": "2613c87825b69f7cbda631310857cff9",
+        "key": "7ac6e2642934d4502fd20e763fa6447f"
     }
 }
