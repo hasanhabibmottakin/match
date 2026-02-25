@@ -2905,9 +2905,9 @@
         "key": ""
     },
     "6986ce509dafa": {
-        "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/rsezvlsysm/out/v1/abf442903f5b429581bf54e219a7dfc9/cenc.mpd",
-        "kid": "31041cbf8e2dd25e4d64f5989e8c911b",
-        "key": "5fa81c120212d63234dbf5e8c0576998"
+        "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/rfh96ivsaj/out/v1/01c215d79e0b44c893a295dbecc8b336/cenc.mpd",
+        "kid": "151fcc077a8f254ac46580528b81f409",
+        "key": "852dbcb36cc39cee1825da9cf5feafed"
     },
     "698706a071387": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
