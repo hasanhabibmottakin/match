@@ -3443,5 +3443,30 @@
         "mpdUrl": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
         "kid": "96b67fa09140329a89b7a1ead134eda3",
         "key": "c618d32c56cdc6cad8330eb98507ca3f"
+    },
+    "69a32c852768c": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD1403/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69a32cd71b199": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD1451/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69a32d5421850": {
+        "mpdUrl": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+        "kid": "d1a163914db8ffad2c3e94f979896a0d",
+        "key": "9728800a3959aafdd5b0bcfbf3768811"
+    },
+    "69a32d9156090": {
+        "mpdUrl": "https://cdn3.skygo.mn/live/disk1/PSN3/DASH-FTA/PSN3.mpd",
+        "kid": "3501bd323a6a35c28eb7654bf298b9aa",
+        "key": "2db4c8089d627e1b2c480c57baa86a7b"
+    },
+    "69a32be6d17b8": {
+        "mpdUrl": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "kid": "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        "key": "214bd176832872339ce184338320f9a2"
     }
 }
