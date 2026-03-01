@@ -2905,9 +2905,9 @@
         "key": ""
     },
     "6986ce509dafa": {
-        "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/pv5ebsf2wy/out/v1/e4c42e4a662a43d5a77b07dcf9696206/cenc.mpd",
-        "kid": "c2b62ac895c98d017a3d052b81f1df6a",
-        "key": "287e12308bc12010e93df2517c8a9069"
+        "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/clients/dash/enc/ecp6xidc5d/out/v1/b8a94677c56e4411aef7ecc2431cec0a/cenc.mpd",
+        "kid": "0c1cb3e9514dddd75896a7f60a03decb",
+        "key": "963fb175f70769c8d56fc44c843808b3"
     },
     "698706a071387": {
         "mpdUrl": "https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd",
@@ -2950,9 +2950,9 @@
         "key": "7241c82fe48525a9dc6be6d7bb86611f"
     },
     "69881d7f4fef3": {
-        "mpdUrl": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/wwrmho82pc/out/v1/d7130f460d41486ea7e8e3eb45f0522f/cenc.mpd",
-        "kid": "baafdb8ebcbbc0655332291da6f121da",
-        "key": "60ac892e0ea0b2c46fc6837c97ed641a"
+        "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/enc/hp0lefwcem/out/v1/925bb83b4490417fa9c536dde0104939/cenc.mpd",
+        "kid": "9854668c16b3ef7efe6facbf91fd8af2",
+        "key": "fc899a5c275cbb1060d6d9d61cd52ecd"
     },
     "69888bea5e6d5": {
         "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/xj5a1nx4du/out/v1/159a9c5978ff422e81b569e259e07894/cenc.mpd",
