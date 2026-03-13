@@ -3478,5 +3478,50 @@
         "mpdUrl": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/dw8fn5dqni/out/v1/9970dcba9eac4243a9dac04e0dba4359/cenc.mpd",
         "kid": "3757663f0ddde8faf34e73cf636417b1",
         "key": "7e8fcb73c6183793bcc3028108f6860d"
+    },
+    "69b44624b22d4": {
+        "mpdUrl": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
+        "kid": "",
+        "key": ""
+    },
+    "69b4487024433": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD6737/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69b443f4934f3": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2083/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69b4458266327": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD4071/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69b4444781827": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD1403/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69b44481e525d": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD2709/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69b4487a72ba5": {
+        "mpdUrl": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+        "kid": "d1a163914db8ffad2c3e94f979896a0d",
+        "key": "9728800a3959aafdd5b0bcfbf3768811"
+    },
+    "69b444895a915": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD6412/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69b44591216be": {
+        "mpdUrl": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "kid": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+        "key": ""
     }
 }
