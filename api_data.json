@@ -3543,5 +3543,10 @@
         "mpdUrl": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
         "kid": "d9623774ac5c8c351aafe97c5fe70267",
         "key": "5164e6d05164a2d65fa8fcc962aa4861"
+    },
+    "69b595e9f21ce": {
+        "mpdUrl": "https://eventcdn02-nowe.akamaized.net/hls/CH622/index.m3u8",
+        "kid": "",
+        "key": ""
     }
 }
