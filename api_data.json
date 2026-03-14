@@ -3523,5 +3523,25 @@
         "mpdUrl": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
         "kid": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
         "key": ""
+    },
+    "69b55c84b3cb4": {
+        "mpdUrl": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+        "kid": "d1a163914db8ffad2c3e94f979896a0d",
+        "key": "9728800a3959aafdd5b0bcfbf3768811"
+    },
+    "69b55e3934ee9": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD6412/index.mpd",
+        "kid": "",
+        "key": ""
+    },
+    "69b55c4bc2611": {
+        "mpdUrl": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "kid": "7995c724a13748ed970840a8ab5bb9b3",
+        "key": "67bdaf1e2175b9ff682fcdf0e2354b1e"
+    },
+    "69b55c7288855": {
+        "mpdUrl": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "kid": "d9623774ac5c8c351aafe97c5fe70267",
+        "key": "5164e6d05164a2d65fa8fcc962aa4861"
     }
 }
