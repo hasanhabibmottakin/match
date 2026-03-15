@@ -3563,5 +3563,10 @@
         "mpdUrl": "https://cors-proxy.cooks.fyi/https://ev-fast-mpd.starzplayarabia.com/live/eds/Criclife_3/DASH/Criclife_3.mpd",
         "kid": "4e8b5ddac5332a4e66c002b4c0f22322",
         "key": "d06de29b0eacb81ac6e3f325849047e8"
+    },
+    "69b69ad861c0a": {
+        "mpdUrl": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "kid": "7995c724a13748ed970840a8ab5bb9b3",
+        "key": "67bdaf1e2175b9ff682fcdf0e2354b1e"
     }
 }
