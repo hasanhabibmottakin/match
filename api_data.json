@@ -3568,5 +3568,10 @@
         "mpdUrl": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "kid": "7995c724a13748ed970840a8ab5bb9b3",
         "key": "67bdaf1e2175b9ff682fcdf0e2354b1e"
+    },
+    "69b6b22102542": {
+        "mpdUrl": "https://45d4f5xxx.win/strimcdn/lp/tv/beinsports2id/hls/index.m3u8?jwt=MTQ5LjIyLjg4LjIxfDE3NzM3NDY2NjR8L3N0cmltY2RuL2xwL3R2L2JlaW5zcG9ydHMyaWQvaGxzL2luZGV4Lm0zdTh8WmsyRldWeU9GMk9xcXNBRWFkWnBLOWRzdXJJaGZqV1Rxd3VuaXpCMnRidw",
+        "kid": "",
+        "key": ""
     }
 }
