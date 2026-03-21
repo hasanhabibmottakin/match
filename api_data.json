@@ -3588,5 +3588,10 @@
         "mpdUrl": "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&amp;amp;e=2068506973&amp;amp;scheme=https",
         "kid": "",
         "key": ""
+    },
+    "69be80a37baa2": {
+        "mpdUrl": "https://bbb.exoadash.com/TVD6219/index.mpd",
+        "kid": "",
+        "key": ""
     }
 }
