@@ -3603,5 +3603,10 @@
         "mpdUrl": "https://ottlive.dishhome.com.np/protected/jQTOzZkB0RDJ74Ryniuo/dash/manifest.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0",
         "kid": "a7712196dbee413ab510c825e5c4d3f0",
         "key": "1ade126fa6a9162ba34bd5de5b1427ca"
+    },
+    "69c6d20c9cf97": {
+        "mpdUrl": "https://raw.githubusercontent.com/xmrt624/lpootvs/refs/heads/main/sky9.m3u8",
+        "kid": "",
+        "key": ""
     }
 }
