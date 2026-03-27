@@ -3598,5 +3598,10 @@
         "mpdUrl": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
         "kid": "4bbcff3289d457b4dd5dbdd21221de9a",
         "key": "c4906b9a9f8dda3c0725bddb8c497733"
+    },
+    "69c6b26660b48": {
+        "mpdUrl": "https://ottlive.dishhome.com.np/protected/jQTOzZkB0RDJ74Ryniuo/dash/manifest.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0",
+        "kid": "a7712196dbee413ab510c825e5c4d3f0",
+        "key": "1ade126fa6a9162ba34bd5de5b1427ca"
     }
 }
