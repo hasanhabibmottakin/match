@@ -3608,5 +3608,20 @@
         "mpdUrl": "https://raw.githubusercontent.com/xmrt624/lpootvs/refs/heads/main/sky9.m3u8",
         "kid": "",
         "key": ""
+    },
+    "69c7d8286e0d2": {
+        "mpdUrl": "https://tencentcdn4.tamashaweb.com/v1/0196159d28a51ea5064913eb2a83e7/0196159e84f81ea506ec1adad310bd/TMSH_U1_APP.m3u8",
+        "kid": "",
+        "key": ""
+    },
+    "69c7dbbeee3b2": {
+        "mpdUrl": "https://a201aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/kksbtkclxn/out/v1/75ba74c3fa354297aa9327a31dfeb4d5/cenc.mpd",
+        "kid": "4a3d50bef26a7b2acebfb719a2d02476",
+        "key": "f94f4e94b57e18e48450231b20222c0c"
+    },
+    "69c7d7d7389f0": {
+        "mpdUrl": "https://cors-proxy.cooks.fyi/https://ev-fast-mpd.starzplayarabia.com/live/eds/Criclife_3/DASH/Criclife_3.mpd",
+        "kid": "4e8b5ddac5332a4e66c002b4c0f22322",
+        "key": "d06de29b0eacb81ac6e3f325849047e8"
     }
 }
