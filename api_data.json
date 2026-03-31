@@ -3648,5 +3648,10 @@
         "mpdUrl": "https://cors-proxy.cooks.fyi/https://ev-fast-mpd.starzplayarabia.com/live/eds/CricLife1/DASH/CricLife1.mpd (Linux;Android 13) AndroidXMedia3/1.5.1&amp;amp;amp;X-Forwarded-For=100.42.240.25&amp;amp;amp;cookie=hdntl=exp=1774967734~acl=/*~id=xunivamy@denipl.com~data=hdntl,flavour:CB,matchId:149640,debug4xx:false,country:AE~hmac=0b8afe49cefc94a19289923d40a550b750a99bfa79d3adcc9b809e9d08b015c6",
         "kid": "1e23e51b09a67b83813c17049870bcd4",
         "key": "c3d6288e378b0dc55320fd0e6fd2e55f"
+    },
+    "69cc5ad9c257e": {
+        "mpdUrl": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5_live/live.livx",
+        "kid": "cc667cda2ff49c4500fdf1ad847d4fc0",
+        "key": "13a48dc2c1257fd9a119b448de5225f6"
     }
 }
