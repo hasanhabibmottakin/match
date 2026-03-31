@@ -3638,5 +3638,15 @@
         "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/kksbtkclxn/out/v1/75ba74c3fa354297aa9327a31dfeb4d5/cenc.mpd",
         "kid": "4a3d50bef26a7b2acebfb719a2d02476 b748836c71e6a4ca68ef5b5652db6247",
         "key": "f94f4e94b57e18e48450231b20222c0c"
+    },
+    "69cbca21f30e3": {
+        "mpdUrl": "https://pslurdu.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
+        "kid": "a4e623b42bbb8466c37bbcf3b0392daa",
+        "key": "745393798c53a9f68bfd1b1f768470bb"
+    },
+    "69cbd1cca4d4c": {
+        "mpdUrl": "https://livevideos.cricbuzz.com/hls/live/2123398/WCB-CA/9241/149640/master.m3u8?|user-agent=Cricbuzz/7.00.01 (Linux;Android 13) AndroidXMedia3/1.5.1&amp;amp;X-Forwarded-For=100.42.240.25&amp;amp;cookie=hdntl=exp=1774967734~acl=/*~id=xunivamy@denipl.com~data=hdntl,flavour:CB,matchId:149640,debug4xx:false,country:AE~hmac=0b8afe49cefc94a19289923d40a550b750a99bfa79d3adcc9b809e9d08b015c6",
+        "kid": "",
+        "key": ""
     }
 }
