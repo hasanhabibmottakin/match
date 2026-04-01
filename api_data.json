@@ -3653,5 +3653,10 @@
         "mpdUrl": "https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5_live/live.livx",
         "kid": "cc667cda2ff49c4500fdf1ad847d4fc0",
         "key": "13a48dc2c1257fd9a119b448de5225f6"
+    },
+    "69cd2dc9855ee": {
+        "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/4ncgjuq0f0/out/v1/f7306c616dc84f3c9f5ed27c605a5f3c/cenc.mpd",
+        "kid": "749618dc54f5bc958a67e38339147bf4",
+        "key": "e746efd1bcc637ae2008043357c7ff6e"
     }
 }
