@@ -3655,8 +3655,8 @@
         "key": "13a48dc2c1257fd9a119b448de5225f6"
     },
     "69cd2dc9855ee": {
-        "mpdUrl": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/4ncgjuq0f0/out/v1/f7306c616dc84f3c9f5ed27c605a5f3c/cenc.mpd",
-        "kid": "749618dc54f5bc958a67e38339147bf4",
-        "key": "e746efd1bcc637ae2008043357c7ff6e"
+        "mpdUrl": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tug1yvvlko/out/v1/809fadb196f043b8988ac1505100a204/cenc.mpd",
+        "kid": "242a0612eb2cf817fa69cd18ee140450",
+        "key": "bef3f38b21b088a7f0644b5169fcfcae"
     }
 }
